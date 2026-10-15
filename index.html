@@ -1,1151 +1,215 @@
 <!DOCTYPE html>
-<html lang="tr" class="scroll-smooth">
+<html lang="tr" class="h-full">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hülya Tuncer – Aile Danışmanı | hulyatuncer.com.tr</title>
-  <meta name="description" content="Üniversite Onaylı Sertifikalı Aile Danışmanı Hülya Tuncer. Bireysel, çift ve aile danışmanlığı, ebeveynlik rehberliği ve Glucoecosystem Tip 1 Diyabet aile psikososyal desteği.">
-  <meta name="keywords" content="Hülya Tuncer, Aile Danışmanı, Aile Danışmanlığı, Çift Danışmanlığı, İlişki Danışmanı, İnegöl Aile Danışmanı, Bursa Aile Danışmanı, Tip 1 Diyabet Aile Desteği, Glucoecosystem, Online Danışmanlık">
+  <title>Hülya Tuncer – Aile & İlişki Danışmanı | Çok Yakında</title>
+  <meta name="description" content="Üniversite Onaylı Sertifikalı Aile Danışmanı Hülya Tuncer. Bireysel, çift ve aile danışmanlığı, Glucoecosystem Tip 1 Diyabet aile desteği. Web sitemiz çok yakında hizmetinizde.">
+  <meta name="keywords" content="Hülya Tuncer, Aile Danışmanı, Aile Danışmanlığı, Çift Danışmanlığı, İlişki Danışmanı, İnegöl, Bursa, Online Danışmanlık">
   <meta name="author" content="Hülya Tuncer">
 
-  <!-- Open Graph / Meta -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://hulyatuncer.com.tr/">
-  <meta property="og:title" content="Hülya Tuncer – Aile Danışmanı">
-  <meta property="og:description" content="Güvenli Bağlar, Sağlıklı İletişim, Huzurlu Evler. Online Aile Danışmanlığı Seansları.">
-  <meta property="og:image" content="assets/img/hulya_tuncer_launch_1786609145211.jpg">
+  <meta property="og:title" content="Hülya Tuncer – Aile & İlişki Danışmanı | Çok Yakında">
+  <meta property="og:description" content="Kendi kökünde özgür, aynı gökyüzünde bir. Web sitemiz çok yakında hizmetinizde.">
+  <meta property="og:image" content="assets/img/master_symbol_square.png?v=4">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/img/logo_emblem.svg?v=4">
 
-  <!-- Tailwind CSS via CDN with customized theme -->
+  <!-- Google Fonts: Cormorant Garamond (Serif) & Plus Jakarta Sans (Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
           colors: {
             brand: {
-              50: '#F2F7F4',
-              100: '#E1EFE8',
-              200: '#C2DFD1',
-              300: '#94C6AF',
-              400: '#5EA787',
-              500: '#2E6B56', // Primary Sage
-              600: '#235443',
-              700: '#1B4235',
-              800: '#153329',
-              900: '#0E221B',
+              50: '#F4F7F5',
+              100: '#E6ECE8',
+              500: '#2E6B56',
+              600: '#245645',
+              700: '#1C4235',
+              800: '#153127',
+              900: '#0E211A',
             },
             terracotta: {
-              50: '#FCF4F3',
-              100: '#F7E7E5',
-              200: '#EFCDC8',
-              400: '#C27D72',
-              500: '#B0685D',
-              600: '#914E44',
+              50: '#FAF3F0',
+              100: '#F4E4DD',
+              500: '#C86D51',
+              600: '#B0593E',
+              700: '#8E432D',
             },
-            gluco: {
-              50: '#EFF6FF',
-              100: '#DBEAFE',
-              500: '#2563EB',
-              700: '#1D4ED8',
-            }
+            travertine: '#FAF8F5',
           }
         }
       }
     }
   </script>
 
-  <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    body {
+      background-color: #FAF8F5;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(46, 107, 86, 0.05) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(200, 109, 81, 0.05) 0px, transparent 50%);
+    }
+    .card-border {
+      box-shadow: 
+        0 1px 2px rgba(0, 0, 0, 0.04),
+        0 20px 40px -15px rgba(28, 66, 53, 0.08),
+        0 0 0 1px rgba(214, 206, 194, 0.6);
+    }
+    .gold-line {
+      background: linear-gradient(90deg, transparent, rgba(200, 109, 81, 0.4), transparent);
+    }
+  </style>
 </head>
-<body class="bg-stone-50/40 text-stone-800 antialiased selection:bg-brand-100 selection:text-brand-800">
+<body class="min-h-full font-sans text-stone-800 flex flex-col justify-between p-4 sm:p-6 lg:p-8 antialiased selection:bg-brand-500 selection:text-white">
 
-  <!-- 1. Üst Duyuru Çubuğu -->
-  <div class="bg-brand-800 text-stone-100 text-xs sm:text-sm py-2 px-4">
-    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-      <div class="flex items-center gap-2 text-center sm:text-left">
-        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-        <span>🌿 <strong>Online Aile Danışmanlığı:</strong> Tüm Türkiye ve Yurt Dışı Randevuları Başladı</span>
-      </div>
-      <div class="flex items-center gap-4 text-xs">
-        <a href="tel:+905055783259" class="hover:text-emerald-300 transition flex items-center gap-1">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          0505 578 32 59
-        </a>
-        <span class="text-brand-600">|</span>
-        <a href="mailto:hlytuncer@gmail.com" class="hover:text-emerald-300 transition flex items-center gap-1">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          hlytuncer@gmail.com
-        </a>
-      </div>
+  <!-- ÜST ALAN: Durum Rozeti -->
+  <header class="w-full max-w-xl mx-auto flex items-center justify-between pt-2 pb-4">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/80 border border-stone-200 text-xs text-stone-600 shadow-2xs backdrop-blur-xs">
+      <span class="relative flex h-2 w-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-600"></span>
+      </span>
+      <span class="font-medium">Yakında Hizmetinizde</span>
     </div>
-  </div>
-
-  <!-- 2. Navigasyon Çubuğu (Header) -->
-  <header id="navbar" class="sticky top-0 z-50 glass-nav transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-20">
-        
-        <!-- Logo -->
-        <a href="#" class="flex items-center gap-3">
-          <img src="assets/img/logo.svg?v=4" alt="Hülya Tuncer Logo" class="h-12 w-auto">
-        </a>
-
-        <!-- Masaüstü Menü -->
-        <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-stone-700">
-          <a href="#felsefe" class="hover:text-brand-500 text-brand-700 font-semibold transition flex items-center gap-1.5">
-            <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
-            Felsefe & Hikaye
-          </a>
-          <a href="#hakkimda" class="hover:text-brand-500 transition">Hakkımda</a>
-          <a href="#hizmetler" class="hover:text-brand-500 transition">Hizmet Alanları</a>
-          <a href="#glucoecosystem" class="hover:text-gluco-500 transition flex items-center gap-1.5">
-            <span class="w-2 h-2 rounded-full bg-blue-500"></span>
-            Glucoecosystem T1D
-          </a>
-          <a href="#metodoloji" class="hover:text-brand-500 transition">Terapötik Araçlar</a>
-          <a href="#sss" class="hover:text-brand-500 transition">S.S.S.</a>
-        </nav>
-
-        <!-- Sağ Aksiyon Butonu -->
-        <div class="hidden sm:flex items-center gap-3">
-          <a href="#randevu" class="bg-brand-500 hover:bg-brand-600 text-white font-medium px-5 py-2.5 rounded-full shadow-sm hover:shadow-md transition text-sm flex items-center gap-2">
-            <span>Online Randevu Al</span>
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-          </a>
-        </div>
-
-        <!-- Mobil Menü Butonu -->
-        <div class="flex items-center md:hidden">
-          <button id="mobileMenuBtn" type="button" class="text-stone-700 hover:text-brand-500 p-2 focus:outline-none" aria-label="Menüyü Aç">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-          </button>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Mobil Açılır Menü -->
-    <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-stone-200 px-4 pt-3 pb-6 space-y-3">
-      <a href="#felsefe" class="mobile-nav-link block py-2 text-brand-700 font-bold hover:text-brand-500">✨ Marka Felsefemiz & Hikaye</a>
-      <a href="#hakkimda" class="mobile-nav-link block py-2 text-stone-700 font-medium hover:text-brand-500">Hakkımda</a>
-      <a href="#hizmetler" class="mobile-nav-link block py-2 text-stone-700 font-medium hover:text-brand-500">Hizmet Alanları</a>
-      <a href="#glucoecosystem" class="mobile-nav-link block py-2 text-blue-700 font-medium hover:text-gluco-500">💙 Glucoecosystem T1D Desteği</a>
-      <a href="#metodoloji" class="mobile-nav-link block py-2 text-stone-700 font-medium hover:text-brand-500">Terapötik Araçlar & Metot</a>
-      <a href="#sss" class="mobile-nav-link block py-2 text-stone-700 font-medium hover:text-brand-500">Sıkça Sorulan Sorular</a>
-      <a href="#randevu" class="mobile-nav-link block text-center bg-brand-500 text-white font-medium py-3 rounded-xl mt-4">Hemen Randevu Al</a>
-    </div>
+    <span class="text-[11px] tracking-wider text-stone-400 uppercase font-medium">hulyatuncer.com.tr</span>
   </header>
 
-  <!-- 3. HERO (Giriş) Bölümü -->
-  <section class="relative overflow-hidden pt-12 pb-20 lg:py-24 bg-gradient-to-b from-stone-50 via-brand-50/20 to-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        
-        <!-- Sol Metin Alanı (7 Kolon) -->
-        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full badge-sage text-xs sm:text-sm font-semibold tracking-wide">
-            <span>🌸</span>
-            <span>Üniversite Onaylı Sertifikalı Aile Danışmanı</span>
-          </div>
-
-          <h1 class="text-3xl sm:text-5xl lg:text-5xl font-extrabold text-stone-900 tracking-tight leading-tight">
-            Kendi Kökünde Özgür, <br>
-            <span class="text-brand-500">Aynı Gökyüzünde Bir.</span>
-          </h1>
-
-          <p class="text-base sm:text-lg text-stone-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
-            Birlikte büyüyen iki kardeş, aynı evi ve hayatı paylaşan iki yol arkadaşı veya bir ömre söz vermiş eşler... Bir çatıyı, hafızayı ve sorumluluğu paylaşan tüm insan bağlarındaki düğümleri sevgi, güven ve şefkatle çözüyoruz.
-          </p>
-
-          <!-- Güven Rozetleri -->
-          <div class="flex flex-wrap justify-center lg:justify-start gap-2 pt-1">
-            <span class="bg-white border border-stone-200 text-stone-700 text-xs px-3 py-1.5 rounded-lg flex items-center gap-1.5 shadow-2xs">
-              🛡️ %100 Mahremiyet İlkesi
-            </span>
-            <span class="bg-white border border-stone-200 text-stone-700 text-xs px-3 py-1.5 rounded-lg flex items-center gap-1.5 shadow-2xs">
-              🌿 Sistemik &amp; Bilimsel Yaklaşım
-            </span>
-            <span class="bg-white border border-stone-200 text-stone-700 text-xs px-3 py-1.5 rounded-lg flex items-center gap-1.5 shadow-2xs">
-              💙 Glucoecosystem T1D Desteği
-            </span>
-          </div>
-
-          <!-- Aksiyon Butonları -->
-          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-            <a href="#randevu" class="w-full sm:w-auto bg-brand-500 hover:bg-brand-600 text-white font-semibold px-8 py-3.5 rounded-full shadow-lg shadow-brand-500/25 transition text-center flex items-center justify-center gap-2">
-              <span>Online Seans Randevusu Al</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-            </a>
-            <a href="https://wa.me/905055783259?text=Merhaba%20H%C3%BClya%20Han%C4%B1m%2C%20dan%C4%B1%C5%9Fmanl%C4%B1k%20hizmetleriniz%20ve%20seanslar%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="w-full sm:w-auto bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 font-semibold px-6 py-3.5 rounded-full transition text-center flex items-center justify-center gap-2">
-              <svg class="w-5 h-5 text-emerald-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.838.814 2.796.814 3.183 0 5.769-2.588 5.77-5.768 0-3.18-2.587-5.768-5.77-5.768zm0 10.455c-.868 0-1.722-.234-2.47-.677l-.177-.105-1.837.482.491-1.792-.116-.185c-.486-.774-.742-1.674-.741-2.597.001-2.628 2.14-4.767 4.77-4.767 2.629 0 4.768 2.139 4.769 4.768 0 2.63-2.14 4.769-4.77 4.769z"/></svg>
-              <span>WhatsApp ile Danış</span>
-            </a>
-          </div>
-
-        </div>
-
-        <!-- Sağ Görsel Alanı (5 Kolon) -->
-        <div class="lg:col-span-5 relative">
-          <div class="relative mx-auto max-w-md lg:max-w-none">
-            
-            <!-- Dekoratif Arka Plan Çerçevesi -->
-            <div class="absolute -inset-4 bg-gradient-to-tr from-brand-200/50 to-terracotta-200/40 rounded-3xl transform rotate-2 blur-sm"></div>
-            
-            <!-- Ana Fotoğraf -->
-            <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-white">
-              <img src="assets/img/hulya_tuncer_launch_1786609145211.jpg" alt="Aile Danışmanı Hülya Tuncer" class="w-full h-[460px] object-cover object-top">
-              
-              <!-- Üst Overlay Bilgisi -->
-              <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-stone-900/80 via-stone-900/40 to-transparent p-6 text-white">
-                <p class="text-xs uppercase tracking-wider text-emerald-300 font-semibold">Uzman Rehberlik</p>
-                <h3 class="text-xl font-bold">Hülya Tuncer</h3>
-                <p class="text-xs text-stone-200">Aile &amp; İlişki Danışmanı</p>
-              </div>
-            </div>
-
-            <!-- Kayan Rozet 1 (Sol Üst - Master Marka Kimliği) -->
-            <a href="#felsefe" class="absolute -top-5 -left-5 bg-white/95 backdrop-blur-md p-2.5 rounded-2xl shadow-xl border border-stone-200/80 animate-float hidden sm:flex items-center gap-3 hover:scale-105 transition group" title="Marka Hikayesini İncele">
-              <img src="assets/img/master_symbol_square.png?v=4" alt="Hülya Tuncer Amblem" class="w-12 h-12 rounded-xl object-cover ring-2 ring-emerald-500/20 shadow-xs">
-              <div class="pr-2">
-                <p class="text-xs font-bold text-stone-900 group-hover:text-brand-600 transition">Karşılaşma & Akış</p>
-                <p class="text-[10px] text-brand-600 font-semibold flex items-center gap-1">
-                  <span>Marka Felsefesi</span>
-                  <span class="text-stone-400">→</span>
-                </p>
-              </div>
-            </a>
-
-            <!-- Kayan Rozet 2 (Sağ Alt) -->
-            <div class="absolute -bottom-4 -right-4 glass-panel p-3.5 rounded-xl shadow-lg border border-white/60 hidden sm:flex items-center gap-3">
-              <span class="text-2xl">💙</span>
-              <div>
-                <p class="text-xs font-bold text-stone-900">Glucoecosystem</p>
-                <p class="text-[11px] text-blue-600 font-medium">T1D Aile Desteği</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- 4. DÖRT TEMEL DEĞER (Quick Highlights) -->
-  <section class="py-8 bg-white border-y border-stone-200/80">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-        
-        <div class="p-4 space-y-1">
-          <div class="text-2xl mb-1">🛋️</div>
-          <h4 class="font-bold text-stone-900 text-sm">Yargısız & Mahrem Alan</h4>
-          <p class="text-xs text-stone-500">%100 gizlilik prensibine sadık güvenli seans ortamı.</p>
-        </div>
-
-        <div class="p-4 space-y-1">
-          <div class="text-2xl mb-1">🏡</div>
-          <h4 class="font-bold text-stone-900 text-sm">Ebeveyn &amp; Aile İçi İletişim</h4>
-          <p class="text-xs text-stone-500">Aile içi sağlıklı sınırlar, rol dağılımı ve kuşaklararası bağlar.</p>
-        </div>
-
-        <div class="p-4 space-y-1">
-          <div class="text-2xl mb-1">🌱</div>
-          <h4 class="font-bold text-stone-900 text-sm">Sistemik Çift &amp; İlişki</h4>
-          <p class="text-xs text-stone-500">İlişki düğümlerini çözen, empati ve sınır temelli bilimsel rehberlik.</p>
-        </div>
-
-        <div class="p-4 space-y-1">
-          <div class="text-2xl mb-1">🩺</div>
-          <h4 class="font-bold text-stone-900 text-sm">T1D Psikososyal Destek</h4>
-          <p class="text-xs text-stone-500">Glucoecosystem bünyesinde diyabetli çocuk ve aileye özel destek.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- 4.5. MARKA FELSEFEMİZ & HİKAYEMİZ (Karşılaşma, Akış ve Büyüme) -->
-  <section id="felsefe" class="py-24 bg-gradient-to-b from-stone-50 via-white to-stone-50/60 border-b border-stone-200/80 relative overflow-hidden">
-    
-    <!-- Arka Plan Dekoratif Işık Hüzmeleri -->
-    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-gradient-to-tr from-brand-100/40 via-terracotta-100/30 to-emerald-100/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <!-- ANA KARTVİZİT KAPSAYICI -->
+  <main class="w-full max-w-xl mx-auto my-auto py-2">
+    <div class="bg-white/95 backdrop-blur-md rounded-3xl p-6 sm:p-10 card-border text-center space-y-6 relative overflow-hidden">
       
-      <!-- Başlık ve Giriş -->
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-50 border border-brand-200 text-brand-700 text-xs sm:text-sm font-semibold tracking-wide mb-4 shadow-2xs">
-          <span class="w-2 h-2 rounded-full bg-brand-500 animate-ping"></span>
-          <span>🌿 HÜLYA TUNCER MARKA FELSEFESİ & HİKAYESİ</span>
+      <!-- Dekoratif Üst Işıma Çizgisi -->
+      <div class="gold-line h-[1.5px] w-3/4 mx-auto absolute top-0 inset-x-0"></div>
+
+      <!-- Marka Amblemi / Logo -->
+      <div class="pt-2">
+        <div class="relative inline-block">
+          <img src="assets/img/master_symbol.png?v=4" 
+               alt="Hülya Tuncer Master Logo - Karşılaşma ve Akış" 
+               class="w-44 sm:w-52 h-auto mx-auto drop-shadow-sm transition-transform duration-500 hover:scale-105">
         </div>
-        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-stone-900 tracking-tight leading-tight">
-          Karşılaşma, Akış ve Büyüme: <br>
-          <span class="bg-gradient-to-r from-brand-600 via-emerald-600 to-terracotta-500 bg-clip-text text-transparent">İki Özerk İnsanın Ortak Gökyüzü</span>
-        </h2>
-        <p class="mt-4 text-base sm:text-lg text-stone-600 leading-relaxed font-normal">
-          Bir aile danışmanının ilgi odağı sadece çekirdek aile değildir. Birlikte büyüyen iki kardeş, aynı evi ve hayatı paylaşan iki yol arkadaşı, bir ömre söz vermiş eşler veya bir ebeveynle çocuğu... Birbirini tüketmeden, göz hizasında ve şefkatle var olan tüm insan bağlarının görsel manifestosu.
+      </div>
+
+      <!-- İsim & Unvan -->
+      <div class="space-y-2">
+        <h1 class="text-3xl sm:text-4xl font-serif font-bold text-stone-900 tracking-tight">
+          Hülya Tuncer
+        </h1>
+        <p class="text-sm sm:text-base font-semibold text-brand-700 tracking-wide uppercase">
+          Aile &amp; İlişki Danışmanı
+        </p>
+        <div class="pt-1">
+          <span class="inline-block px-3 py-1 rounded-full bg-stone-100 text-stone-700 text-xs font-medium border border-stone-200/80">
+            🌸 Üniversite Onaylı Sertifikalı Aile Danışmanı
+          </span>
+        </div>
+      </div>
+
+      <!-- Felsefe & Slogan -->
+      <div class="py-1">
+        <div class="gold-line h-px w-24 mx-auto mb-3"></div>
+        <p class="text-xs sm:text-sm font-serif italic text-stone-600 max-w-md mx-auto leading-relaxed">
+          “Kendi kökünde özgür, aynı gökyüzünde bir.”
+        </p>
+        <div class="gold-line h-px w-24 mx-auto mt-3"></div>
+      </div>
+
+      <!-- Yakında Bilgilendirmesi -->
+      <div class="bg-stone-50/80 border border-stone-200/90 rounded-2xl p-4 text-left space-y-2">
+        <div class="flex items-center gap-2 text-stone-900 font-bold text-xs uppercase tracking-wider">
+          <span>✨</span>
+          <span>Web Sitemiz Hazırlanıyor</span>
+        </div>
+        <p class="text-xs text-stone-600 leading-relaxed">
+          Kapsamlı rehberlerimiz, seans detaylarımız ve online randevu sistemimiz çok yakında bu adreste yayında olacaktır. Şimdilik danışmanlık ve ön bilgi talepleriniz için doğrudan iletişime geçebilirsiniz.
         </p>
       </div>
 
-      <!-- Ana İçerik: Master Sembol Görseli + 5 Katmanlı Hikaye -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-20">
-        
-        <!-- Sol Kolon: Master Sembol Vitrini (5 Kolon) -->
-        <div class="lg:col-span-5 text-center">
-          <div class="relative inline-block mx-auto">
-            
-            <!-- Arka Plan Işıltısı -->
-            <div class="absolute -inset-4 bg-gradient-to-tr from-brand-200/50 to-terracotta-200/40 rounded-3xl blur-md"></div>
-            
-            <!-- Ana Sembol Kartı -->
-            <div class="relative bg-[#FAF7F2] rounded-3xl p-6 shadow-2xl border-4 border-white overflow-hidden text-center max-w-sm mx-auto">
-              
-              <!-- Üst Rozet -->
-              <div class="inline-block bg-white/80 border border-stone-200/70 text-stone-700 text-[11px] font-semibold px-3 py-1 rounded-full mb-3 shadow-2xs">
-                ✨ Tescilli Resmi Amblem
-              </div>
-
-              <!-- Master Görsel -->
-              <img src="assets/img/master_symbol.png?v=4" alt="Hülya Tuncer Master Logo - İki Profil, Nehir, Doğan Güneş ve Yaşam Filizi" class="w-full h-auto max-h-[340px] object-contain mx-auto transition-transform duration-500 hover:scale-105">
-
-              <!-- Tipografi ve Kimlik -->
-              <div class="pt-4 border-t border-stone-200/60 mt-4">
-                <h3 class="text-xl font-bold font-serif text-stone-900 tracking-tight">Hülya Tuncer</h3>
-                <p class="text-xs font-semibold text-brand-700 uppercase tracking-widest mt-0.5">Aile &amp; İlişki Danışmanlığı</p>
-                <p class="text-[11px] text-stone-500 mt-1">Bireysel, Çift ve Aile Danışmanlığı</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- Alıntı Kutusu -->
-          <div class="mt-6 max-w-sm mx-auto p-4 rounded-2xl bg-white border border-stone-200/80 shadow-xs text-left">
-            <p class="text-xs text-stone-600 italic leading-relaxed">
-              “İki insan birbirine baktığında iki dünya karşılaşır. Aradaki düğümler çözüldüğünde hayatın nehri dingin akar ve yeni bir gün doğar.”
-            </p>
-            <p class="text-[11px] font-bold text-brand-700 mt-2 text-right">— Hülya Tuncer</p>
-          </div>
-
+      <!-- Temel Çalışma Alanları (Mini Etiketler) -->
+      <div class="space-y-2">
+        <p class="text-[11px] uppercase tracking-wider text-stone-400 font-semibold">Çalışma Alanları</p>
+        <div class="flex flex-wrap justify-center gap-1.5 text-xs text-stone-700">
+          <span class="px-2.5 py-1 rounded-lg bg-stone-100 border border-stone-200/60">🛋️ Bireysel Danışmanlık</span>
+          <span class="px-2.5 py-1 rounded-lg bg-stone-100 border border-stone-200/60">🤝 Çift &amp; İlişki</span>
+          <span class="px-2.5 py-1 rounded-lg bg-stone-100 border border-stone-200/60">🏡 Ebeveyn &amp; Aile İçi İletişim</span>
+          <span class="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-900 border border-blue-200/60 font-medium">💙 Glucoecosystem T1D Desteği</span>
         </div>
-
-        <!-- Sağ Kolon: Hikayenin 5 Temel Katmanı (7 Kolon) -->
-        <div class="lg:col-span-7 space-y-4">
-          
-          <!-- Katman 1: İki Profil -->
-          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-brand-300 hover:shadow-md transition">
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-700 font-bold text-sm shrink-0">
-                01
-              </div>
-              <div class="space-y-1">
-                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
-                  <span>İki Karşılaşan Profil: Göz Hizası & Eşitlik</span>
-                  <span class="text-xs font-normal text-brand-600 bg-brand-50 px-2 py-0.5 rounded-full">Ben ve Sen</span>
-                </h4>
-                <p class="text-xs text-stone-600 leading-relaxed">
-                  Sembolün iki kenarında altın çizgilerle karşılıklı duran iki insan silueti. Biri diğerini yutmaz, baskılamaz veya dönüştürmeye zorlamaz. İki kardeş, aynı evi paylaşan iki dost ya da eşler; kendi özerkliğini koruyarak birbiriyle göz hizasında ve şefkatle temas eder.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Katman 2: Akan Dingin Nehir -->
-          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-blue-300 hover:shadow-md transition">
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-700 font-bold text-sm shrink-0">
-                02
-              </div>
-              <div class="space-y-1">
-                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
-                  <span>Akan Dingin Mavi Nehir: İletişim & Duygu Akışı</span>
-                  <span class="text-xs font-normal text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">Düğümlerin Çözülmesi</span>
-                </h4>
-                <p class="text-xs text-stone-600 leading-relaxed">
-                  İki profilin arasından süzülerek uzağa uzanan mavi yol, paylaşılan hayatın ve duygu akışının sembolüdür. İlişkilerdeki krizler, bu nehrin önüne düşen taşlardır; seanslarda amaç nehri kurutmak değil, akışın önündeki tortuları sevgiyle temizlemektir.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Katman 3: Doğan Güneş -->
-          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-amber-300 hover:shadow-md transition">
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-700 font-bold text-sm shrink-0">
-                03
-              </div>
-              <div class="space-y-1">
-                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
-                  <span>Doğan Şafak Güneşi: Umut & Yeni Başlangıç</span>
-                  <span class="text-xs font-normal text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">İçsel Uyanış</span>
-                </h4>
-                <p class="text-xs text-stone-600 leading-relaxed">
-                  Ufukta beliren altın güneş, yaşanan her zorluğun ardından doğacak yeni bir günün müjdecisidir. Farkındalıkla aydınlanan zihin, krizleri birer yıkım değil, olgunlaşma ve kenetlenme fırsatına dönüştürür.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Katman 4: Yaşam Filizi -->
-          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-emerald-300 hover:shadow-md transition">
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 font-bold text-sm shrink-0">
-                04
-              </div>
-              <div class="space-y-1">
-                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
-                  <span>Çok Renkli Yaşam Filizi: Büyüme &amp; Dönüşüm</span>
-                  <span class="text-xs font-normal text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">Duygusal Güç &amp; T1D Direnci</span>
-                </h4>
-                <p class="text-xs text-stone-600 leading-relaxed">
-                  Merkezden göğe uzanan adaçayı yeşili, terakota mercan ve dingin okyanus tonlarındaki yapraklar; bireylerin ve ailenin duygusal gelişimini, kendi potansiyelini gerçekleştirmesini ve Glucoecosystem Tip 1 Diyabet aile desteğinin psikososyal direncini simgeler.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Katman 5: Altın Küre -->
-          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-amber-300 hover:shadow-md transition">
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-stone-100 border border-stone-200 flex items-center justify-center text-stone-700 font-bold text-sm shrink-0">
-                05
-              </div>
-              <div class="space-y-1">
-                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
-                  <span>Zirvedeki Altın Küre: Güvenli Kucak</span>
-                  <span class="text-xs font-normal text-stone-600 bg-stone-100 px-2 py-0.5 rounded-full">Holding Environment</span>
-                </h4>
-                <p class="text-xs text-stone-600 leading-relaxed">
-                  En üstte süzülen altın cevher, danışmanlık sürecinin sağladığı güvenli limanı ve ortak aklı temsil eder. Bireyler bu güvenli alanda yargılanmadan kendileri olabilirler.
-                </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
 
-      <!-- Gerçek Hayat Yansımaları: Mockup Galerisi -->
-      <div class="pt-8 border-t border-stone-200/80">
+      <!-- KARTVİZİT EYLEM BUTONLARI -->
+      <div class="space-y-2.5 pt-2">
         
-        <div class="text-center max-w-2xl mx-auto mb-10">
-          <span class="text-xs font-bold text-brand-600 uppercase tracking-widest block">GERÇEK HAYAT UYGULAMALARI</span>
-          <h3 class="text-2xl sm:text-3xl font-bold text-stone-900 mt-1">Kimliğin Hayattaki Yansıması</h3>
-          <p class="text-xs sm:text-sm text-stone-500 mt-2">
-            Belirlenen amblem ve felsefe; seans materyallerinden danışan günlüğüne, kurumsal dosyadan dijital ortama kadar tutarlı bir güven dili oluşturur.
-          </p>
-        </div>
+        <!-- WhatsApp -->
+        <a href="https://wa.me/905055783259?text=Merhaba%20H%C3%BClya%20Han%C4%B1m%2C%20hulyatuncer.com.tr%20kartvizitinizden%20ula%C5%9F%C4%B1yorum.%20Dan%C4%B1%C5%9Fmanl%C4%B1k%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="w-full inline-flex items-center justify-center gap-2.5 px-5 py-3 rounded-2xl bg-brand-500 hover:bg-brand-600 text-white font-semibold text-sm shadow-sm hover:shadow transition transform active:scale-[0.99]">
+          <span class="text-base">💬</span>
+          <span>WhatsApp ile İletişime Geçin</span>
+        </a>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          
-          <!-- Mockup 1: Danışmanlık Plaketi -->
-          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-stone-200 group">
-            <div class="h-64 overflow-hidden bg-stone-100 relative">
-              <img src="assets/img/mockup_clinic_sign.jpg?v=4" alt="Kurumsal Danışmanlık Duvar Plaketi Mockup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-              <div class="absolute top-3 left-3 bg-stone-900/70 text-white text-[10px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-xs">
-                Kurumsal Plaket
-              </div>
-            </div>
-            <div class="p-5">
-              <h4 class="font-bold text-stone-950 text-base">Kurumsal Danışmanlık Plaketi</h4>
-              <p class="text-xs text-stone-500 mt-1 leading-relaxed">
-                İskandinav estetiğinde traverten ve meşe dokusunda mimari kabartma amblem. Danışmanlık kimliğinin ciddiyetini ve huzur veren profesyonel duruşunu yansıtır.
-              </p>
-            </div>
-          </div>
+        <!-- Telefon & E-Posta İkili Buton -->
+        <div class="grid grid-cols-2 gap-2.5">
+          <a href="tel:+905055783259" 
+             class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-2xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold text-xs border border-stone-200/80 transition">
+            <span>📞</span>
+            <span>0505 578 32 59</span>
+          </a>
 
-          <!-- Mockup 2: Kurumsal Kırtasiye & Dosya -->
-          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-stone-200 group">
-            <div class="h-64 overflow-hidden bg-stone-100 relative">
-              <img src="assets/img/mockup_stationery.jpg?v=4" alt="Lüks Kurumsal Kırtasiye ve Danışan Dosyası Mockup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-              <div class="absolute top-3 left-3 bg-stone-900/70 text-white text-[10px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-xs">
-                Danışan Dosyası
-              </div>
-            </div>
-            <div class="p-5">
-              <h4 class="font-bold text-stone-950 text-base">Lüks Kırtasiye &amp; Danışan Dosyası</h4>
-              <p class="text-xs text-stone-500 mt-1 leading-relaxed">
-                Ağır gramajlı pamuklu kağıt üzerine sıcak altın varak kabartma. Gizlilik ve mesleki ciddiyet prensibini dokunsal olarak hissettirir.
-              </p>
-            </div>
-          </div>
-
-          <!-- Mockup 3: Danışan Günlüğü -->
-          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-stone-200 group">
-            <div class="h-64 overflow-hidden bg-stone-100 relative">
-              <img src="assets/img/mockup_therapy_notebook.jpg?v=4" alt="Danışan Günlüğü ve Rehber Defter Mockup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-              <div class="absolute top-3 left-3 bg-stone-900/70 text-white text-[10px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-xs">
-                Seans Günlüğü
-              </div>
-            </div>
-            <div class="p-5">
-              <h4 class="font-bold text-stone-950 text-base">Danışan Günlüğü &amp; Rehber Defter</h4>
-              <p class="text-xs text-stone-500 mt-1 leading-relaxed">
-                Adaçayı yeşili keten kapaklı, altın varak amblemli özel danışan günlüğü. Danışanın kendi içsel yolculuğunu ve farkındalıklarını not ettiği kıymetli alan.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Buton & Link -->
-        <div class="text-center mt-10">
-          <a href="logo_showcase.html" class="inline-flex items-center gap-2 bg-stone-900 hover:bg-brand-600 text-white font-semibold text-xs sm:text-sm px-7 py-3 rounded-full shadow-md hover:shadow-lg transition">
-            <span>Marka Kitini ve Tüm Vektörel Varlıkları İncele</span>
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          <a href="mailto:hlytuncer@gmail.com" 
+             class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-2xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold text-xs border border-stone-200/80 transition">
+            <span>✉️</span>
+            <span>E-Posta Gönder</span>
           </a>
         </div>
 
+        <!-- Rehbere Kaydet (vCard) -->
+        <a href="assets/hulyatuncer.vcf" 
+           download="Hulya_Tuncer_Aile_Danismani.vcf"
+           class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-2xl bg-stone-50 hover:bg-stone-100 text-stone-600 font-medium text-xs border border-stone-200/60 transition">
+          <span>📇</span>
+          <span>Kartviziti Rehbere Kaydet (.vcf)</span>
+        </a>
+
+      </div>
+
+      <!-- Lokasyon & Sosyal Medya -->
+      <div class="pt-4 border-t border-stone-200/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-stone-500">
+        <div class="flex items-center gap-1.5">
+          <span>📍</span>
+          <span>Bursa / İnegöl &amp; Online (Global)</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-brand-700 transition flex items-center gap-1 font-medium">
+            <span>📷</span>
+            <span>@ailedanismani.hulyatuncer</span>
+          </a>
+        </div>
       </div>
 
     </div>
-  </section>
-
-  <!-- 5. HAKKIMDA (About Me) -->
-  <section id="hakkimda" class="py-20 bg-stone-50/50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        
-        <!-- Sol Fotoğraf -->
-        <div class="lg:col-span-5">
-          <div class="relative rounded-2xl overflow-hidden shadow-xl border border-stone-200">
-            <img src="assets/img/hulya_tuncer_room_1786609162098.jpg" alt="Hülya Tuncer Seans Odası" class="w-full h-[450px] object-cover">
-            <div class="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent flex items-end p-6">
-              <blockquote class="text-white text-sm italic font-light">
-                “Bir ailenin hikayesi, anlaşılmaya ve şefkatle dinlenmeye değer en kıymetli alandır.”
-              </blockquote>
-            </div>
-          </div>
-        </div>
-
-        <!-- Sağ Metin -->
-        <div class="lg:col-span-7 space-y-5">
-          <span class="badge-sage text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Ben Kimim?</span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-            Her Aile Kendi İçinde Benzersiz Bir Hikayedir
-          </h2>
-          
-          <p class="text-stone-600 leading-relaxed text-sm sm:text-base">
-            Merhaba, ben <strong>Hülya Tuncer</strong>. Üniversite onaylı sertifikalı <strong>Aile Danışmanıyım</strong>. Çalışmalarımda aileyi yalnızca geleneksel bir şablonla sınırlandırmıyorum; bazen aynı çocukluğu paylaşmış iki yetişkin kardeşin düğümlenen bağı, bazen aynı evi ve hayatı paylaşan iki yol arkadaşının ortak yaşam dengesi, bazen de evlilik ve ebeveynlik dinamikleridir. İki insanın hayatı ve ortak sorumluluğu paylaştığı her alanda güvenli, sağlıklı ve çözüm odaklı sistemler kurmalarına rehberlik ediyorum.
-          </p>
-
-          <p class="text-stone-600 leading-relaxed text-sm sm:text-base">
-            Seanslarımda; dünyaca kabul görmüş <strong>Virginia Satir Sistemik İlişki Modeli</strong>'ni, <strong>Şiddetsiz İletişim (NVC)</strong> felsefesini ve danışanların duygusal ihtiyaçlarını görünür kılan <strong>Terapötik Kartlar</strong> metodolojisini kullanıyorum. Danışanların kendi içsel kaynaklarını ve özerkliklerini güçlendirerek, sevgi ve karşılıklı saygı temelli bir yaşam dengesi inşa etmelerine eşlik ediyorum.
-          </p>
-
-          <div class="bg-blue-50/70 border border-blue-200 rounded-xl p-4 flex items-start gap-3.5">
-            <span class="text-2xl mt-0.5">💙</span>
-            <div>
-              <h4 class="font-bold text-blue-900 text-sm">Glucoecosystem Aile Desteği</h4>
-              <p class="text-xs text-blue-800 leading-relaxed mt-1">
-                Tip 1 Diyabet ve kronik sağlık yolculuğunda çocukların kabullenme süreçleri, ebeveyn tükenmişliği (burnout) ve aile içi denge konusunda Glucoecosystem çatısı altında özel psikososyal rehberlik sağlıyorum.
-              </p>
-            </div>
-          </div>
-
-          <!-- Özellik Maddeleri -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-            <div class="flex items-center gap-2 text-stone-700 text-sm">
-              <svg class="w-5 h-5 text-brand-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Üniversite Onaylı Sertifikalı Uzman</span>
-            </div>
-            <div class="flex items-center gap-2 text-stone-700 text-sm">
-              <svg class="w-5 h-5 text-brand-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>%100 KVKK & Mahremiyet İlkesi</span>
-            </div>
-            <div class="flex items-center gap-2 text-stone-700 text-sm">
-              <svg class="w-5 h-5 text-brand-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Online (Zoom/Meet) & Yüz Yüze Seans</span>
-            </div>
-            <div class="flex items-center gap-2 text-stone-700 text-sm">
-              <svg class="w-5 h-5 text-brand-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Çözüm Odaklı ve Sistemik Yaklaşım</span>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- 6. HİZMET ALANLARIMIZ (Services Grid) -->
-  <section id="hizmetler" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
-        <span class="badge-sage text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Uzmanlık Alanlarım</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-          Bütüncül ve Güven Odaklı Danışmanlık Hizmetleri
-        </h2>
-        <p class="text-stone-600 text-sm sm:text-base">
-          Eşler, kardeşler, yol arkadaşları ve ebeveynler için; bilimsel yöntemler ve şefkatli dinleme alanıyla yanınızdayız.
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        
-        <!-- Hizmet 1: Aile, Çift & Ortak Yaşam Danışmanlığı -->
-        <div class="service-card bg-stone-50 rounded-2xl p-6 border border-stone-200/90 flex flex-col justify-between">
-          <div class="space-y-4">
-            <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-2xl">
-              🤝
-            </div>
-            <h3 class="text-xl font-bold text-stone-900">Aile, Çift &amp; Ortak Yaşam</h3>
-            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed">
-              Eşler, aynı evi paylaşan yol arkadaşları veya yetişkin kardeşler arasındaki iletişim tıkanıklıkları, ortak yaşam sınırları ve kriz yönetimi.
-            </p>
-            <ul class="text-xs text-stone-500 space-y-1.5 pt-2">
-              <li class="flex items-center gap-1.5">• Eşler & Çiftler Arası Güven İnşası</li>
-              <li class="flex items-center gap-1.5">• Kardeşler Arası Miras & İletişim Dengesi</li>
-              <li class="flex items-center gap-1.5">• Aynı Evi Paylaşanlar İçin Sınır Yönetimi</li>
-            </ul>
-          </div>
-          <div class="pt-6 border-t border-stone-200/80 mt-6">
-            <a href="#randevu" class="text-xs font-semibold text-brand-600 hover:text-brand-800 flex items-center gap-1">
-              Randevu Oluştur <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-        </div>
-
-        <!-- Hizmet 2: Ebeveynlik & Aile İçi İletişim -->
-        <div class="service-card bg-stone-50 rounded-2xl p-6 border border-stone-200/90 flex flex-col justify-between">
-          <div class="space-y-4">
-            <div class="w-12 h-12 rounded-xl bg-terracotta-100 text-terracotta-600 flex items-center justify-center text-2xl">
-              🏡
-            </div>
-            <h3 class="text-xl font-bold text-stone-900">Ebeveynlik &amp; Aile İçi İletişim</h3>
-            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed">
-              Aile içi sağlıklı sınırlar, pozitif ebeveynlik tutumları, kuşaklararası aktarım ve ev içindeki rol dengesi.
-            </p>
-            <ul class="text-xs text-stone-500 space-y-1.5 pt-2">
-              <li class="flex items-center gap-1.5">• Şefkatli ve kararlı sınır yönetimi</li>
-              <li class="flex items-center gap-1.5">• Ebeveyn tükenmişliği ve işbirliği</li>
-              <li class="flex items-center gap-1.5">• Aile içi kriz ve çatışma çözümü</li>
-            </ul>
-          </div>
-          <div class="pt-6 border-t border-stone-200/80 mt-6">
-            <a href="#randevu" class="text-xs font-semibold text-terracotta-600 hover:text-terracotta-800 flex items-center gap-1">
-              Randevu Oluştur <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-        </div>
-
-        <!-- Hizmet 3: Bireysel & Yetişkin İlişki Danışmanlığı -->
-        <div class="service-card bg-stone-50 rounded-2xl p-6 border border-stone-200/90 flex flex-col justify-between">
-          <div class="space-y-4">
-            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center text-2xl">
-              🕊️
-            </div>
-            <h3 class="text-xl font-bold text-stone-900">Bireysel &amp; Yetişkin Danışmanlığı</h3>
-            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed">
-              Kişisel sınırları güçlendirme, öfke ve duygu regülasyonu, evlilik öncesi hazırlık ve ilişkisel tükenmişlik süreçlerinde bireysel psikososyal rehberlik.
-            </p>
-            <ul class="text-xs text-stone-500 space-y-1.5 pt-2">
-              <li class="flex items-center gap-1.5">• Duygusal regülasyon ve öz-şefkat</li>
-              <li class="flex items-center gap-1.5">• Sağlıklı sınırlar ve hayır diyebilme</li>
-              <li class="flex items-center gap-1.5">• Yaşam krizleri ve ilişki geçişleri</li>
-            </ul>
-          </div>
-          <div class="pt-6 border-t border-stone-200/80 mt-6">
-            <a href="#randevu" class="text-xs font-semibold text-amber-800 hover:text-amber-950 flex items-center gap-1">
-              Randevu Oluştur <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-        </div>
-
-        <!-- Hizmet 4: Glucoecosystem T1D Aile Desteği -->
-        <div class="service-card bg-blue-50/50 rounded-2xl p-6 border border-blue-200 flex flex-col justify-between">
-          <div class="space-y-4">
-            <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center text-2xl">
-              💙
-            </div>
-            <h3 class="text-xl font-bold text-stone-900">T1D & Kronik Aile Desteği</h3>
-            <p class="text-stone-600 text-xs sm:text-sm leading-relaxed">
-              Glucoecosystem güvencesiyle; Tip 1 diyabetli çocukların ebeveynlerine psikososyal destek, hipoglisemi kaygısı ve okul uyumu.
-            </p>
-            <ul class="text-xs text-stone-500 space-y-1.5 pt-2">
-              <li class="flex items-center gap-1.5">• İlk teşhis kabullenme ve şok atlatma</li>
-              <li class="flex items-center gap-1.5">• Gece kaygısı ve ebeveyn tükenmişliği</li>
-              <li class="flex items-center gap-1.5">• Ergenlik dönemi sensör/pompa kabulu</li>
-            </ul>
-          </div>
-          <div class="pt-6 border-t border-blue-200 mt-6">
-            <a href="#glucoecosystem" class="text-xs font-semibold text-blue-700 hover:text-blue-900 flex items-center gap-1">
-              Diyabet Desteğini Keşfet <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- 7. ÖZEL VİTRİN: GLUCOECOSYSTEM (Tip 1 Diyabet & Kronik Aile Desteği) -->
-  <section id="glucoecosystem" class="py-20 bg-gradient-to-b from-blue-50/50 via-white to-stone-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        
-        <!-- Sol: Gluco Bilgilendirme -->
-        <div class="lg:col-span-5 space-y-6">
-          
-          <div class="flex items-center gap-3">
-            <img src="assets/img/glucoecosystem_horizontal_clean.png" alt="Glucoecosystem Logo" class="h-10 w-auto">
-            <span class="text-xs font-bold text-blue-700 uppercase tracking-widest bg-blue-100 px-3 py-1 rounded-full">Resmi İş Birliği</span>
-          </div>
-
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-            Tip 1 Diyabet Yolculuğunda <br>
-            <span class="text-blue-600">Aileniz Asla Yalnız Değil.</span>
-          </h2>
-
-          <p class="text-stone-600 text-sm sm:text-base leading-relaxed">
-            Diyabet yalnızca sensörler, insülin dozları ve kan şekeri grafiklerinden ibaret değildir. Asıl görünmeyen yük; uykusuz geceler, hipoglisemi korkusu, okulda çocuğunun yanında olamama endişesi ve ebeveyn tükenmişliğidir.
-          </p>
-
-          <p class="text-stone-600 text-sm sm:text-base leading-relaxed">
-            Hülya Tuncer, <strong>Glucoecosystem</strong> bünyesinde Tip 1 diyabetli çocukların ebeveynlerine, kardeşlerine ve ergenlik çağındaki gençlere özel yapılandırılmış psikososyal rehberlik sunmaktadır.
-          </p>
-
-          <div class="pt-2">
-            <a href="#randevu" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3.5 rounded-full shadow-lg shadow-blue-600/20 transition text-sm">
-              <span>T1D Aile Danışmanlığı Randevusu Al</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-            </a>
-          </div>
-
-        </div>
-
-        <!-- Sağ: 4 Temel T1D Psikososyal Destek Kartı -->
-        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          
-          <div class="bg-white p-5 rounded-2xl border border-blue-100 shadow-sm hover:shadow-md transition">
-            <span class="text-2xl">🌙</span>
-            <h4 class="font-bold text-stone-900 text-base mt-2">Gece Kaygısı & Ebeveyn Tükenmişliği</h4>
-            <p class="text-xs text-stone-500 mt-1 leading-relaxed">
-              Sürekli alarm kontrol etmenin yarattığı kronik uyku bozukluğu ve tükenmişlik hissini yönetme protokolleri.
-            </p>
-          </div>
-
-          <div class="bg-white p-5 rounded-2xl border border-blue-100 shadow-sm hover:shadow-md transition">
-            <span class="text-2xl">🎒</span>
-            <h4 class="font-bold text-stone-900 text-base mt-2">Okul ve Akran Entegrasyonu</h4>
-            <p class="text-xs text-stone-500 mt-1 leading-relaxed">
-              Öğretmenlerle doğru iletişim, beslenme saatleri ve çocuğun okul ortamında kendini izole hissetmesini önleme.
-            </p>
-          </div>
-
-          <div class="bg-white p-5 rounded-2xl border border-blue-100 shadow-sm hover:shadow-md transition">
-            <span class="text-2xl">⚡</span>
-            <h4 class="font-bold text-stone-900 text-base mt-2">Ergenlikte İsyan & Kabul</h4>
-            <p class="text-xs text-stone-500 mt-1 leading-relaxed">
-              Sensör takmayı reddetme veya diyabetini gizleme eğilimindeki ergenlerle çatışmasız güven bağı kurma.
-            </p>
-          </div>
-
-          <div class="bg-white p-5 rounded-2xl border border-blue-100 shadow-sm hover:shadow-md transition">
-            <span class="text-2xl">⚖️</span>
-            <h4 class="font-bold text-stone-900 text-base mt-2">Kardeşler Arası Denge</h4>
-            <p class="text-xs text-stone-500 mt-1 leading-relaxed">
-              Tüm ilginin diyabetli çocuğa kaydığı algısıyla diğer kardeşin ihmal edilmiş hissetmesini engelleyen ebeveynlik rehberliği.
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- 9. METODOLOJİ VE TERAPÖTİK ARAÇLAR -->
-  <section id="metodoloji" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
-        <span class="badge-sage text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Nasıl Çalışıyoruz?</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-          Bilimsel Metodoloji & Terapötik Kartlar
-        </h2>
-        <p class="text-stone-600 text-sm sm:text-base">
-          Kelimelerin tıkandığı yerde semboller konuşur. Seanslarımızda uluslararası geçerliliği olan araçlarla duyguları görünür kılıyoruz.
-        </p>
-      </div>
-
-      <!-- Sekme Butonları -->
-      <div class="flex flex-wrap justify-center gap-2 mb-8">
-        <button type="button" class="method-tab-btn bg-emerald-800 text-white font-medium text-xs sm:text-sm px-5 py-2.5 rounded-full shadow-md transition" data-target="panel-kartlar">
-          🃏 Terapötik Kartlar (Tandoo, Persona, Cope)
-        </button>
-        <button type="button" class="method-tab-btn bg-white text-stone-700 border border-stone-200 font-medium text-xs sm:text-sm px-5 py-2.5 rounded-full hover:bg-stone-50 transition" data-target="panel-satir">
-          🌐 Virginia Satir Sistemik Modeli
-        </button>
-        <button type="button" class="method-tab-btn bg-white text-stone-700 border border-stone-200 font-medium text-xs sm:text-sm px-5 py-2.5 rounded-full hover:bg-stone-50 transition" data-target="panel-nvc">
-          🕊️ Şiddetsiz İletişim (NVC)
-        </button>
-      </div>
-
-      <!-- Sekme İçerikleri -->
-      <div class="max-w-4xl mx-auto bg-stone-50 rounded-2xl p-6 sm:p-8 border border-stone-200">
-        
-        <!-- Panel 1: Terapötik Kartlar -->
-        <div id="panel-kartlar" class="method-panel block space-y-4">
-          <div class="flex items-center gap-3">
-            <span class="text-3xl">🎴</span>
-            <div>
-              <h3 class="text-lg font-bold text-stone-900">Terapötik Metafor Kartları ile Duyguları Somutlaştırma</h3>
-              <p class="text-xs text-stone-500">Tandoo (Çift dinamikleri), Persona (Roller), Cope (Travma/Kriz) ve Duygu Kartları</p>
-            </div>
-          </div>
-          <p class="text-stone-600 text-sm leading-relaxed">
-            Özellikle ifade etmekte zorlanılan duygular, öfke patlamaları veya çiftler arasındaki görünmez bariyerler metafor kartları ile seans masasına yatırılır. Danışan seçtiği kart üzerinden iç dünyasını yargılanma korkusu olmadan anlatabilir.
-          </p>
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2 text-center text-xs font-semibold text-stone-700">
-            <div class="bg-white p-3 rounded-xl border border-stone-200">Tandoo Çift Kartları</div>
-            <div class="bg-white p-3 rounded-xl border border-stone-200">Persona & Personita</div>
-            <div class="bg-white p-3 rounded-xl border border-stone-200">Cope Başa Çıkma</div>
-            <div class="bg-white p-3 rounded-xl border border-stone-200">NVC İhtiyaç Kartları</div>
-          </div>
-        </div>
-
-        <!-- Panel 2: Virginia Satir Modeli -->
-        <div id="panel-satir" class="method-panel hidden space-y-4">
-          <div class="flex items-center gap-3">
-            <span class="text-3xl">🌳</span>
-            <div>
-              <h3 class="text-lg font-bold text-stone-900">Virginia Satir Sistemik Aile Modeli</h3>
-              <p class="text-xs text-stone-500">Bireyi tek başına değil, ailenin oluşturduğu bütünsel sistem içinde ele alma</p>
-            </div>
-          </div>
-          <p class="text-stone-600 text-sm leading-relaxed">
-            Ailede bir kişinin yaşadığı zorluk (örneğin çocuğun öfke nöbeti veya eşlerden birinin içine kapanması), bütün ailenin iletişim kalıplarıyla bağlantılıdır. Satir modeli; suçlayıcı, alttan alıcı ya da hesapçı iletişim tarzlarını dönüştürerek dengeli ve açık iletişimi hedefler.
-          </p>
-        </div>
-
-        <!-- Panel 3: Şiddetsiz İletişim (NVC) -->
-        <div id="panel-nvc" class="method-panel hidden space-y-4">
-          <div class="flex items-center gap-3">
-            <span class="text-3xl">🕊️</span>
-            <div>
-              <h3 class="text-lg font-bold text-stone-900">Şiddetsiz İletişim (Nonviolent Communication - NVC)</h3>
-              <p class="text-xs text-stone-500">Gözlem • Duygu • İhtiyaç • Rica adımlarıyla empatik diyalog</p>
-            </div>
-          </div>
-          <p class="text-stone-600 text-sm leading-relaxed">
-            Tartışmalarda karşı tarafı yargılamadan ya da suçlamadan kendi gerçek ihtiyacını söyleyebilme sanatıdır. Eşler ve çocuk-ebeveyn ilişkisinde "Sen hep böylesin" kalıbını kırarak "Ben şu an şunu hissediyorum çünkü buna ihtiyacım var" dilini öğretir.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- 10. DÖRT ADIMDA SEANS SÜRECİ -->
-  <section class="py-20 bg-stone-50/70 border-y border-stone-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-14 space-y-2">
-        <span class="badge-sage text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Kolay ve Güvenli Süreç</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-          Danışmanlık Sürecimiz Nasıl İlerler?
-        </h2>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-        
-        <div class="bg-white p-6 rounded-2xl border border-stone-200 text-center space-y-3 shadow-2xs">
-          <div class="w-10 h-10 rounded-full bg-brand-500 text-white font-bold flex items-center justify-center mx-auto text-sm">1</div>
-          <h4 class="font-bold text-stone-900 text-base">Ön Görüşme & Başvuru</h4>
-          <p class="text-xs text-stone-500 leading-relaxed">Web sitesi veya WhatsApp üzerinden form doldurarak temel ihtiyacınızı bize iletirsiniz.</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-2xl border border-stone-200 text-center space-y-3 shadow-2xs">
-          <div class="w-10 h-10 rounded-full bg-brand-500 text-white font-bold flex items-center justify-center mx-auto text-sm">2</div>
-          <h4 class="font-bold text-stone-900 text-base">Randevu Planlama</h4>
-          <p class="text-xs text-stone-500 leading-relaxed">Online (Zoom/Google Meet) veya Bursa/İnegöl yüz yüze seans için uygun saat dilimi belirlenir.</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-2xl border border-stone-200 text-center space-y-3 shadow-2xs">
-          <div class="w-10 h-10 rounded-full bg-brand-500 text-white font-bold flex items-center justify-center mx-auto text-sm">3</div>
-          <h4 class="font-bold text-stone-900 text-base">Mahrem Seanslar</h4>
-          <p class="text-xs text-stone-500 leading-relaxed">50 dakikalık yapılandırılmış, yargısız ve çözüm odaklı seanslarla kök sorunlara inilir.</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-2xl border border-stone-200 text-center space-y-3 shadow-2xs">
-          <div class="w-10 h-10 rounded-full bg-brand-500 text-white font-bold flex items-center justify-center mx-auto text-sm">4</div>
-          <h4 class="font-bold text-stone-900 text-base">Kalıcı Dönüşüm & Takip</h4>
-          <p class="text-xs text-stone-500 leading-relaxed">Gelişim basamakları ve aile içi ödevlerle kazanımların hayata geçmesi takip edilir.</p>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- 11. SIKÇA SORULAN SORULAR (Accordion FAQ) -->
-  <section id="sss" class="py-20 bg-white">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center mb-12 space-y-2">
-        <span class="badge-sage text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Merak Edilenler</span>
-        <h2 class="text-3xl font-extrabold text-stone-900 tracking-tight">Sıkça Sorulan Sorular</h2>
-      </div>
-
-      <div class="space-y-3">
-        
-        <!-- Soru 1 -->
-        <div class="faq-item border border-stone-200 rounded-xl overflow-hidden active">
-          <button type="button" class="faq-question w-full flex justify-between items-center p-5 text-left bg-stone-50/60 hover:bg-stone-50 transition">
-            <span class="font-bold text-stone-800 text-sm sm:text-base">Online seanslar yüz yüze seanslar kadar verimli midir?</span>
-            <svg class="faq-chevron w-5 h-5 text-stone-500 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="faq-answer px-5 py-4 text-xs sm:text-sm text-stone-600 bg-white leading-relaxed">
-            Evet. Sistemik aile danışmanlığı ve ebeveyn rehberliği online platformlarda (Zoom, Google Meet) yüksek verimle yürütülmektedir. Danışanlarımız kendi ev konforunda, güvenli ve mahrem bir alanda seans almanın rahatlığını yaşamaktadır.
-          </div>
-        </div>
-
-        <!-- Soru 2 -->
-        <div class="faq-item border border-stone-200 rounded-xl overflow-hidden">
-          <button type="button" class="faq-question w-full flex justify-between items-center p-5 text-left bg-stone-50/60 hover:bg-stone-50 transition">
-            <span class="font-bold text-stone-800 text-sm sm:text-base">Seanslarda gizlilik ve mahremiyet nasıl güvenceye alınır?</span>
-            <svg class="faq-chevron w-5 h-5 text-stone-500 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="faq-answer px-5 py-4 text-xs sm:text-sm text-stone-600 bg-white leading-relaxed">
-            Mesleki etik ve KVKK standartları gereğince seans odasında konuşulan her şey %100 gizlilik altındadır. Danışanın yazılı rızası olmadan hiçbir bilgi üçüncü şahıslarla paylaşılmaz.
-          </div>
-        </div>
-
-        <!-- Soru 3 -->
-        <div class="faq-item border border-stone-200 rounded-xl overflow-hidden">
-          <button type="button" class="faq-question w-full flex justify-between items-center p-5 text-left bg-stone-50/60 hover:bg-stone-50 transition">
-            <span class="font-bold text-stone-800 text-sm sm:text-base">Tip 1 Diyabetli çocuğumuz var, danışmanlık süreci ne sağlar?</span>
-            <svg class="faq-chevron w-5 h-5 text-stone-500 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="faq-answer px-5 py-4 text-xs sm:text-sm text-stone-600 bg-white leading-relaxed">
-            Glucoecosystem iş birliğiyle yürüttüğümüz bu süreçte; diyabet teşhisinin aileye getirdiği duygusal şoku atlatma, ebeveynlerdeki uykusuzluk ve hipoglisemi korkusunu hafifletme, çocuğun okulda akranları arasında kendini güvende hissetmesi ve ergenlikte sensör kullanım isyanlarını çözme üzerine çalışılır.
-          </div>
-        </div>
-
-        <!-- Soru 4 -->
-        <div class="faq-item border border-stone-200 rounded-xl overflow-hidden">
-          <button type="button" class="faq-question w-full flex justify-between items-center p-5 text-left bg-stone-50/60 hover:bg-stone-50 transition">
-            <span class="font-bold text-stone-800 text-sm sm:text-base">Seanslar ne kadar sürer ve süreç nasıl işler?</span>
-            <svg class="faq-chevron w-5 h-5 text-stone-500 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="faq-answer px-5 py-4 text-xs sm:text-sm text-stone-600 bg-white leading-relaxed">
-            Seanslarımız 50-60 dakika sürmektedir. İlk görüşmede danışanlarımızın ihtiyaç ve öncelikleri belirlenir; ardından ihtiyaca göre haftalık ya da iki haftada bir periyotlarla danışmanlık süreci yapılandırılır.
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- 12. RANDEVU VE İLETİŞİM FORMU (WhatsApp Integrated) -->
-  <section id="randevu" class="py-20 bg-stone-100/80">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="bg-white rounded-3xl shadow-xl border border-stone-200/80 p-6 sm:p-10">
-        
-        <div class="text-center max-w-xl mx-auto mb-8 space-y-2">
-          <span class="badge-sage text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">İletişim & Randevu</span>
-          <h2 class="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight">
-            İlk Adımı Birlikte Atalım
-          </h2>
-          <p class="text-xs sm:text-sm text-stone-500">
-            Aşağıdaki kısa formu doldurduğunuzda doğrudan WhatsApp üzerinden ön görüşme ve randevu talebiniz Hülya Tuncer'e iletilecektir.
-          </p>
-        </div>
-
-        <!-- Başarı Mesajı Bildirimi -->
-        <div id="formSuccess" class="hidden mb-6 p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs sm:text-sm flex items-center gap-2">
-          <svg class="w-5 h-5 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <span>Randevu bilgileriniz hazırlandı, WhatsApp uygulamasına yönlendiriliyorsunuz...</span>
-        </div>
-
-        <form id="bookingForm" class="space-y-4">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            
-            <div>
-              <label for="fullName" class="block text-xs font-semibold text-stone-700 mb-1">Adınız Soyadınız *</label>
-              <input type="text" id="fullName" required placeholder="Örn: Ayşe Yılmaz" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
-            </div>
-
-            <div>
-              <label for="phone" class="block text-xs font-semibold text-stone-700 mb-1">Telefon Numaranız *</label>
-              <input type="tel" id="phone" required placeholder="Örn: 05XX XXX XX XX" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
-            </div>
-
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            
-            <div>
-              <label for="serviceType" class="block text-xs font-semibold text-stone-700 mb-1">İlgilendiğiniz Hizmet Alanı</label>
-              <select id="serviceType" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
-                <option value="Aile, Çift ve Ortak Yaşam Danışmanlığı">Aile, Çift ve Ortak Yaşam Danışmanlığı</option>
-                <option value="Kardeş İlişkileri & Birlikte Yaşama Rehberliği">Kardeş İlişkileri &amp; Birlikte Yaşama Rehberliği</option>
-                <option value="Ebeveynlik ve Aile İçi İletişim Danışmanlığı">Ebeveynlik &amp; Aile İçi İletişim Danışmanlığı</option>
-                <option value="Glucoecosystem Tip 1 Diyabet Aile Desteği">Glucoecosystem Tip 1 Diyabet Aile Desteği</option>
-                <option value="Bireysel & Yetişkin Danışmanlığı">Bireysel &amp; Yetişkin Danışmanlığı</option>
-                <option value="Diğer Bireysel / İlişkisel Danışmanlık Konuları">Diğer İlişkisel / Bireysel Konular</option>
-              </select>
-            </div>
-
-            <div>
-              <label for="sessionFormat" class="block text-xs font-semibold text-stone-700 mb-1">Seans Türü Tercihi</label>
-              <select id="sessionFormat" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
-                <option value="Online Seans (Tüm Türkiye & Yurt Dışı)">Online Seans (Zoom / Google Meet)</option>
-                <option value="Yüz Yüze Seans (Bursa / İnegöl)">Yüz Yüze Seans (Bursa / İnegöl)</option>
-              </select>
-            </div>
-
-          </div>
-
-          <div>
-            <label for="note" class="block text-xs font-semibold text-stone-700 mb-1">Kısaca Paylaşmak İstediğiniz Not (Opsiyonel)</label>
-            <textarea id="note" rows="3" placeholder="Örn: 5 yaşındaki çocuğumuzun öfke nöbetleri hakkında görüşmek istiyoruz..." class="w-full px-4 py-2 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
-          </div>
-
-          <div class="pt-2">
-            <button type="submit" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-brand-500/30 transition flex items-center justify-center gap-2 text-sm">
-              <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.838.814 2.796.814 3.183 0 5.769-2.588 5.77-5.768 0-3.18-2.587-5.768-5.77-5.768zm0 10.455c-.868 0-1.722-.234-2.47-.677l-.177-.105-1.837.482.491-1.792-.116-.185c-.486-.774-.742-1.674-.741-2.597.001-2.628 2.14-4.767 4.77-4.767 2.629 0 4.768 2.139 4.769 4.768 0 2.63-2.14 4.769-4.77 4.769z"/></svg>
-              <span>WhatsApp Üzerinden Randevu Talebi İlet</span>
-            </button>
-            <p class="text-[11px] text-stone-400 text-center mt-2">
-              🔒 Bilgileriniz kesinlikle gizli tutulur. Danışan mahremiyeti esastır.
-            </p>
-          </div>
-
-        </form>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- 13. FOOTER (Alt Bilgi) -->
-  <footer class="bg-stone-900 text-stone-300 pt-16 pb-12 border-t border-stone-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-        
-        <!-- Kolon 1: Logo & Misyon -->
-        <div class="space-y-4">
-          <div class="flex items-center gap-3">
-            <img src="assets/img/master_symbol_square.png?v=4" alt="Hülya Tuncer Amblem" class="w-11 h-11 rounded-xl object-cover shadow-sm ring-1 ring-emerald-500/30">
-            <div>
-              <span class="text-xl font-bold text-white font-serif block">Hülya Tuncer</span>
-              <span class="text-[10px] text-stone-400 tracking-wider uppercase block">Aile & İlişki Danışmanı</span>
-            </div>
-          </div>
-          <p class="text-xs text-stone-400 leading-relaxed">
-            Üniversite Onaylı Sertifikalı Aile Danışmanı. Güvenli bağlar, sağlıklı iletişim ve huzurlu evler için bilimsel rehberlik.
-          </p>
-          <div class="pt-1">
-            <span class="inline-block text-[11px] bg-stone-800 text-emerald-400 px-3 py-1 rounded-full border border-stone-700">
-              hulyatuncer.com.tr
-            </span>
-          </div>
-        </div>
-
-        <!-- Kolon 2: Hızlı Bağlantılar -->
-        <div class="space-y-3">
-          <h5 class="text-sm font-bold text-white uppercase tracking-wider">Hızlı Erişim</h5>
-          <ul class="text-xs space-y-2 text-stone-400">
-            <li><a href="#felsefe" class="hover:text-emerald-400 text-emerald-300 font-semibold transition">✨ Marka Felsefesi &amp; Hikaye</a></li>
-            <li><a href="#hakkimda" class="hover:text-emerald-400 transition">Hakkımda</a></li>
-            <li><a href="#hizmetler" class="hover:text-emerald-400 transition">Aile &amp; Çift Danışmanlığı</a></li>
-            <li><a href="#hizmetler" class="hover:text-emerald-400 transition">Ebeveynlik &amp; Aile İçi İletişim</a></li>
-            <li><a href="#hizmetler" class="hover:text-emerald-400 transition">Bireysel &amp; Yetişkin Danışmanlığı</a></li>
-            <li><a href="#glucoecosystem" class="hover:text-blue-400 transition">Glucoecosystem T1D Desteği</a></li>
-            <li><a href="#sss" class="hover:text-emerald-400 transition">Sıkça Sorulan Sorular</a></li>
-            <li><a href="logo_showcase.html" class="hover:text-emerald-400 text-stone-300 transition">🎨 Kurumsal Kimlik &amp; Logo Kiti</a></li>
-          </ul>
-        </div>
-
-        <!-- Kolon 3: İletişim Bilgileri -->
-        <div class="space-y-3">
-          <h5 class="text-sm font-bold text-white uppercase tracking-wider">İletişim</h5>
-          <ul class="text-xs space-y-2 text-stone-400">
-            <li class="flex items-center gap-2">
-              <span>📞</span>
-              <a href="tel:+905055783259" class="hover:text-white">0505 578 32 59</a>
-            </li>
-            <li class="flex items-center gap-2">
-              <span>✉️</span>
-              <a href="mailto:hlytuncer@gmail.com" class="hover:text-white">hlytuncer@gmail.com</a>
-            </li>
-            <li class="flex items-center gap-2">
-              <span>📍</span>
-              <span>Bursa / İnegöl & Online (Global)</span>
-            </li>
-            <li class="flex items-center gap-2 pt-1 text-emerald-400">
-              <span>💬</span>
-              <span>WhatsApp: 7/24 Randevu Ön Talep</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Kolon 4: Sosyal Medya & Ekosistem -->
-        <div class="space-y-3">
-          <h5 class="text-sm font-bold text-white uppercase tracking-wider">Sosyal Medya & Ağ</h5>
-          <p class="text-xs text-stone-400 leading-relaxed">
-            Aile ve ilişki dinamiklerine dair rehberleri takip etmek için sosyal medyada buluşalım:
-          </p>
-          <div class="flex items-center gap-3 pt-1">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-stone-800 hover:bg-emerald-700 text-white flex items-center justify-center transition text-sm" title="Instagram: @ailedanismani.hulyatuncer">
-              📷
-            </a>
-            <a href="https://wa.me/905055783259" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-stone-800 hover:bg-emerald-700 text-white flex items-center justify-center transition text-sm" title="WhatsApp">
-              💬
-            </a>
-            <a href="mailto:hlytuncer@gmail.com" class="w-9 h-9 rounded-full bg-stone-800 hover:bg-emerald-700 text-white flex items-center justify-center transition text-sm" title="E-Posta">
-              ✉️
-            </a>
-          </div>
-          <div class="pt-2">
-            <p class="text-[11px] text-stone-500">
-              Çözüm Ortağı: <strong class="text-stone-300">Glucoecosystem</strong>
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Yasal Uyarı & Telif Bildirisi -->
-      <div class="pt-8 border-t border-stone-800 text-center space-y-2">
-        <p class="text-[11px] text-stone-500 max-w-3xl mx-auto leading-relaxed">
-          <strong>Yasal Bilgilendirme:</strong> Bu web sitesinde sunulan aile, çift ve ilişki danışmanlığı içerikleri; tıbbi teşhis, psikiyatrik tedavi veya hekimlik hizmeti niteliği taşımaz. Tıbbi ve psikiyatrik durumlar için lütfen yetkili hekimlere ve yetkili sağlık kuruluşlarına başvurunuz.
-        </p>
-        <p class="text-xs text-stone-400">
-          © 2026 Hülya Tuncer (hulyatuncer.com.tr). Tüm Hakları Saklıdır.
-        </p>
-      </div>
-
-    </div>
+  </main>
+
+  <!-- ALT BİLGİ (Footer) -->
+  <footer class="w-full max-w-xl mx-auto text-center pt-4 pb-2 text-[11px] text-stone-400 space-y-1">
+    <p>© 2026 Hülya Tuncer • Aile &amp; İlişki Danışmanlığı</p>
+    <p class="text-[10px] text-stone-400/80">Tüm Hakları Saklıdır.</p>
   </footer>
 
-  <!-- 14. SABİT WHATSAPP HIZLI ERİŞİM BUTONU (Floating Action Button) -->
-  <a href="https://wa.me/905055783259?text=Merhaba%20H%C3%BClya%20Han%C4%B1m%2C%20hulyatuncer.com.tr%20web%20sitenizden%20ula%C5%9F%C4%B1yorum.%20Dan%C4%B1%C5%9Fmanl%C4%B1k%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." 
-     target="_blank" 
-     rel="noopener noreferrer" 
-     class="whatsapp-float bg-[#25D366] text-white p-3.5 rounded-full flex items-center gap-2 shadow-2xl hover:bg-[#20ba5a]" 
-     title="WhatsApp ile Hemen Mesaj Gönder">
-    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.838.814 2.796.814 3.183 0 5.769-2.588 5.77-5.768 0-3.18-2.587-5.768-5.77-5.768zm0 10.455c-.868 0-1.722-.234-2.47-.677l-.177-.105-1.837.482.491-1.792-.116-.185c-.486-.774-.742-1.674-.741-2.597.001-2.628 2.14-4.767 4.77-4.767 2.629 0 4.768 2.139 4.769 4.768 0 2.63-2.14 4.769-4.77 4.769z"/></svg>
-    <span class="hidden sm:inline text-xs font-bold pr-1">Hemen Danışın</span>
-  </a>
-
-  <!-- JavaScript Dosyası -->
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
