@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 130" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Sage to Deep Forest Gradient -->
+    <linearGradient id="univSageGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1B4332" />
+      <stop offset="50%" stop-color="#2D6A4F" />
+      <stop offset="100%" stop-color="#40916C" />
+    </linearGradient>
+
+    <!-- Warm Terracotta & Peach Gradient -->
+    <linearGradient id="univWarmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E07A5F" />
+      <stop offset="60%" stop-color="#C27D72" />
+      <stop offset="100%" stop-color="#9B4B42" />
+    </linearGradient>
+
+    <!-- Golden Aura Gradient -->
+    <linearGradient id="univGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4A261" />
+      <stop offset="100%" stop-color="#E76F51" />
+    </linearGradient>
+
+    <!-- Soft Ambient Shadow -->
+    <filter id="univShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1B4332" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- EMBLEM SECTION (Scaled to fit 110x110 at x=10, y=10) -->
+  <g transform="translate(10, 8) scale(0.56)" filter="url(#univShadow)">
+    <!-- Outer balance rings -->
+    <circle cx="100" cy="100" r="92" stroke="#2D6A4F" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.25" />
+    <circle cx="100" cy="100" r="96" stroke="#C27D72" stroke-width="1" opacity="0.18" />
+
+    <!-- Parent / Shelter Arch -->
+    <path d="M 68 152
+             C 42 136, 30 102, 42 70
+             C 52 44, 76 34, 100 48
+             C 106 52, 110 58, 110 65
+             C 110 74, 102 82, 92 80
+             C 74 76, 60 90, 60 108
+             C 60 126, 75 142, 94 148
+             C 84 152, 75 153, 68 152 Z"
+          fill="url(#univSageGrad)" />
+
+    <!-- Child / Sprout Embrace -->
+    <path d="M 100 162
+             C 124 154, 158 132, 162 98
+             C 165 72, 148 48, 122 42
+             C 114 40, 104 43, 102 51
+             C 100 58, 106 65, 114 68
+             C 130 74, 138 90, 134 108
+             C 130 126, 116 142, 98 150
+             C 99 154, 99.5 158, 100 162 Z"
+          fill="url(#univWarmGrad)" />
+
+    <!-- Inner Bond Loop -->
+    <path d="M 94 148
+             C 80 134, 76 112, 86 94
+             C 94 80, 110 82, 118 96
+             C 124 108, 118 126, 104 136
+             C 96 144, 95 146, 94 148 Z"
+          fill="#52B788"
+          opacity="0.9" />
+
+    <!-- Child Head Node -->
+    <ellipse cx="102" cy="74" rx="7.5" ry="9" fill="url(#univGoldGrad)" />
+
+    <!-- Parent Head Node -->
+    <ellipse cx="88" cy="44" rx="9" ry="10" fill="url(#univSageGrad)" />
+
+    <!-- Health / Vitality Drop Accent -->
+    <circle cx="128" cy="54" r="5" fill="#3B82F6" opacity="0.85" />
+  </g>
+
+  <!-- TYPOGRAPHY SECTION -->
+  <g transform="translate(138, 22)">
+    <!-- Main Name -->
+    <text x="0" y="44" font-family="'Plus Jakarta Sans', 'Playfair Display', Georgia, system-ui, -apple-system, sans-serif" font-size="36" font-weight="800" fill="#153329" letter-spacing="-0.6">
+      Hülya Tuncer
+    </text>
+
+    <!-- Subtitle (Title / Specialty) -->
+    <text x="2" y="68" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#C27D72" letter-spacing="1.4">
+      AİLE DANIŞMANI &amp; ÇOCUK GELİŞİMCİSİ
+    </text>
+
+    <!-- Pillar Keywords / Tagline -->
+    <g transform="translate(2, 86)" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">
+      <text x="0" y="0" fill="#2D6A4F">Güvenli Bağlar</text>
+      <circle cx="76" cy="-3.5" r="2" fill="#CBD5E1" />
+      <text x="86" y="0" fill="#2D6A4F">Doğada Aile</text>
+      <circle cx="156" cy="-3.5" r="2" fill="#CBD5E1" />
+      <text x="166" y="0" fill="#1D4ED8">Gluco Destek</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 130" width="100%" height="100%" fill="none">
+  <!-- Monochromatic Dark Theme Logo (For dark green or black backgrounds) -->
+  <g transform="translate(10, 8) scale(0.56)">
+    <circle cx="100" cy="100" r="92" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.4" />
+    
+    <!-- Parent Shelter Arch (White) -->
+    <path d="M 68 152
+             C 42 136, 30 102, 42 70
+             C 52 44, 76 34, 100 48
+             C 106 52, 110 58, 110 65
+             C 110 74, 102 82, 92 80
+             C 74 76, 60 90, 60 108
+             C 60 126, 75 142, 94 148
+             C 84 152, 75 153, 68 152 Z"
+          fill="#FFFFFF" />
+
+    <!-- Child / Sprout Embrace (Light Gold / Rose) -->
+    <path d="M 100 162
+             C 124 154, 158 132, 162 98
+             C 165 72, 148 48, 122 42
+             C 114 40, 104 43, 102 51
+             C 100 58, 106 65, 114 68
+             C 130 74, 138 90, 134 108
+             C 130 126, 116 142, 98 150
+             C 99 154, 99.5 158, 100 162 Z"
+          fill="#F3C68F" />
+
+    <!-- Inner Ribbon -->
+    <path d="M 94 148
+             C 80 134, 76 112, 86 94
+             C 94 80, 110 82, 118 96
+             C 124 108, 118 126, 104 136
+             C 96 144, 95 146, 94 148 Z"
+          fill="#A7F3D0"
+          opacity="0.9" />
+
+    <ellipse cx="102" cy="74" rx="7.5" ry="9" fill="#FDE68A" />
+    <ellipse cx="88" cy="44" rx="9" ry="10" fill="#FFFFFF" />
+    <circle cx="128" cy="54" r="5" fill="#60A5FA" />
+  </g>
+
+  <g transform="translate(138, 22)">
+    <text x="0" y="44" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="36" font-weight="800" fill="#FFFFFF" letter-spacing="-0.6">
+      Hülya Tuncer
+    </text>
+    <text x="2" y="68" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#F3C68F" letter-spacing="1.4">
+      AİLE DANIŞMANI &amp; ÇOCUK GELİŞİMCİSİ
+    </text>
+    <g transform="translate(2, 86)" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">
+      <text x="0" y="0" fill="#D1FAE5">Güvenli Bağlar</text>
+      <circle cx="76" cy="-3.5" r="2" fill="#9CA3AF" />
+      <text x="86" y="0" fill="#D1FAE5">Doğada Aile</text>
+      <circle cx="156" cy="-3.5" r="2" fill="#9CA3AF" />
+      <text x="166" y="0" fill="#93C5FD">Gluco Destek</text>
+    </g>
+  </g>
+</svg>
