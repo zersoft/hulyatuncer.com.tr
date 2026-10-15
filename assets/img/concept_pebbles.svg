@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%" fill="none">
+  <!-- Hülya Tuncer – Pebble Harmony (Two Zen Stones & Olive Leaf) -->
+  <!-- Grounding, Shared Balance, Natural Growth -->
+  <defs>
+    <!-- Terracotta Stone Gradient -->
+    <linearGradient id="stoneTerra" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#D99B87" />
+      <stop offset="100%" stop-color="#BA715C" />
+    </linearGradient>
+
+    <!-- Dark Slate Stone Gradient -->
+    <linearGradient id="stoneSlate" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#3D4A43" />
+      <stop offset="100%" stop-color="#222B26" />
+    </linearGradient>
+
+    <!-- Botanical Leaf Gradient -->
+    <linearGradient id="leafGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#4F7159" />
+      <stop offset="100%" stop-color="#6F9B7C" />
+    </linearGradient>
+
+    <filter id="pebbleShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1B2621" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- EMBLEM: Two Asymmetric Pebbles & Olive Sprig -->
+  <g transform="translate(18, 14)" filter="url(#pebbleShadow)">
+    <!-- Left Asymmetric Pebble (Warm Terracotta / Empathy / Home) -->
+    <path d="M 22 55 
+             C 14 55, 8 68, 12 78 
+             C 16 88, 38 90, 48 85 
+             C 56 81, 56 68, 48 59 
+             C 40 52, 30 55, 22 55 Z" 
+          fill="url(#stoneTerra)" />
+
+    <!-- Right Asymmetric Pebble (Slate / Strength / Grounding) -->
+    <path d="M 50 62 
+             C 45 66, 46 78, 52 84 
+             C 58 90, 78 88, 84 80 
+             C 90 70, 84 58, 72 58 
+             C 62 58, 54 59, 50 62 Z" 
+          fill="url(#stoneSlate)" />
+
+    <!-- Delicate Botanical Olive Sprig Rising Between the Stones -->
+    <!-- Central curved stem -->
+    <path d="M 48 76 C 47 56, 52 38, 58 20" stroke="url(#leafGrad)" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    
+    <!-- Leaves -->
+    <!-- Leaf 1 (Left lower) -->
+    <path d="M 49 54 C 41 52, 38 45, 42 42 C 46 39, 49 48, 49 54 Z" fill="url(#leafGrad)" />
+    <!-- Leaf 2 (Right mid) -->
+    <path d="M 52 46 C 60 44, 63 36, 59 34 C 55 32, 51 40, 52 46 Z" fill="url(#leafGrad)" />
+    <!-- Leaf 3 (Left upper) -->
+    <path d="M 54 36 C 47 33, 46 25, 50 23 C 54 21, 55 30, 54 36 Z" fill="url(#leafGrad)" />
+    <!-- Leaf 4 (Right upper) -->
+    <path d="M 56 28 C 64 26, 66 18, 62 17 C 58 16, 55 23, 56 28 Z" fill="url(#leafGrad)" />
+    <!-- Olive fruit droplet -->
+    <circle cx="48" cy="40" r="2.2" fill="#5F886B" />
+  </g>
+
+  <!-- TYPOGRAPHY -->
+  <g transform="translate(126, 22)">
+    <text x="0" y="38" 
+          font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+          font-size="32" 
+          font-weight="800" 
+          fill="#1B2621" 
+          letter-spacing="0.5">
+      HÜLYA TUNCER
+    </text>
+
+    <text x="2" y="62" 
+          font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+          font-size="11.5" 
+          font-weight="600" 
+          fill="#BA715C" 
+          letter-spacing="2.8">
+      İLİŞKİ &amp; AİLE DANIŞMANLIĞI
+    </text>
+
+    <text x="2" y="80" 
+          font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+          font-size="10.5" 
+          font-weight="400" 
+          fill="#6B7280" 
+          letter-spacing="0.4">
+      Çocuk Gelişimi • Doğada Aile • Gluco Destek
+    </text>
+  </g>
+</svg>
