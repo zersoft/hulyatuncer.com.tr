@@ -1,5 +1,6 @@
 # 📱 Hülya Tuncer – Sosyal Medya Kurulum & Lansman Kiti
-> **Instagram • LinkedIn • WhatsApp İşletme Hattı Entegrasyonu**
+> **"Kendi Kökünde Özgür, Aynı Gökyüzünde Bir"**  
+> *Hayatı, Çatıyı ve Yolu Paylaşan Tüm İnsan Bağları İçin*
 
 ---
 
@@ -7,16 +8,17 @@
 
 * **Hesap Türü:** Profesyonel Hesap (Kategori: *Aile Danışmanı* veya *Ruh Sağlığı Hizmeti*)
 * **Kullanıcı Adı (Handle):** `@ailedanismani.hulyatuncer` *(Alternatif: `@hulyatuncer.tr`)*
-* **İsim Alanı (SEO Uyumlu):** `Hülya Tuncer | Aile Danışmanı & Çocuk Gelişimcisi`
+* **İsim Alanı (SEO Uyumlu):** `Hülya Tuncer | Aile & İlişki Danışmanı`
 
 ### 📋 Biyografi (Bio Metni):
 ```text
-🌸 Aile Danışmanı & Çocuk Gelişimcisi
+🌸 Hülya Tuncer | Aile Danışmanı & Çocuk Gelişimcisi
 🎓 Üniversite Onaylı Sertifikalı Uzman
-🌿 Güvenli Bağlar • Doğada Aile • Terapötik Rehberlik
-💙 Glucoecosystem Tip 1 Diyabet Aile Desteği
+🌿 "Kendi Kökünde Özgür, Aynı Gökyüzünde Bir"
+🤝 Kardeşler • Yol Arkadaşları • Çiftler • Aileler
+🌲 Doğada Aile (Eko-Terapi) • 💙 Glucoecosystem T1D
 🛡️ %100 Yargısız & Mahrem Seans Alanı
-👇 Online / Yüz Yüze Randevu & Ön Görüşme:
+👇 Online / Yüz Yüze Ön Görüşme & Randevu:
 hulyatuncer.com.tr
 ```
 
@@ -24,61 +26,70 @@ hulyatuncer.com.tr
 
 ## 🌟 2. Öne Çıkan Hikayeler (Instagram Highlights)
 
-1. **🌿 Ben Kimim?:** Hülya Tuncer'in eğitimi, uzmanlıkları ve terapi felsefesi.
-2. **🛋️ Seanslar:** Online & yüz yüze seans akışı, mahremiyet ilkesi ve seans odası.
-3. **🌲 Doğada Aile:** Oylat Ormanları, eko-terapi atölyeleri, duyusal regülasyon yürüyüşleri.
-4. **💙 Gluco Destek:** Tip 1 Diyabetli çocuk ve ebeveynlerine psikososyal destek içerikleri.
-5. **🎴 Metot & Kartlar:** Seanslarda kullanılan Tandoo, Satir ve NVC (Şiddetsiz İletişim) araçları.
-6. **💬 Danışan Notları:** Mahremiyeti korunarak paylaşılan geri bildirimler.
-7. **📍 İletişim:** Randevu alma adımları ve WhatsApp bağlantısı.
+1. **🌿 Felsefemiz:** "Kendi Kökünde Özgür, Aynı Gökyüzünde Bir" vizyonu ve Hülya Tuncer kimdir?
+2. **🤝 Kimler İçin?:** İki kardeş, aynı evi paylaşan yol arkadaşları, çiftler ve ebeveynler.
+3. **🛋️ Seanslar:** Online & yüz yüze seans akışı, mahremiyet ilkesi ve seans ortamı.
+4. **🌲 Doğada Aile:** Oylat Ormanları, eko-terapi kampları, duyusal regülasyon yürüyüşleri.
+5. **💙 Gluco Destek:** Tip 1 Diyabetli çocuk ve ailelerine özel psikososyal destek protokolleri.
+6. **🎴 Metot & Kartlar:** Virginia Satir sistemik modeli, Şiddetsiz İletişim (NVC) ve Terapötik Kartlar.
+7. **📍 Randevu:** 1 dakikada online ve WhatsApp üzerinden seans planlama.
 
 ---
 
 ## 🚀 3. İlk 3 Lansman Gönderisi & Metinleri
 
-### 📌 Gönderi 1: Hoş Geldiniz & Yeni Başlangıç
-* **Görsel:** `assets/img/hulya_tuncer_launch_1786609145211.jpg`
+### 📌 Gönderi 1: Aile Nedir? (Kan Bağı mı, Can Yoldaşlığı mı?)
+* **Görsel:** `assets/img/master_brand_identity.jpg` (Yeni Master Logo Mockup)
 * **Metin:**
 ```text
-🌸 Merhaba, Ben Aile Danışmanı ve Çocuk Gelişimcisi Hülya Tuncer.
+🌸 Aile Nedir? Bir Kan Bağı mı, Yoksa Bir Can Yoldaşlığı mı?
 
-Her aile, kendi içinde benzersiz bir hikayedir. Bazen bu hikayede kelimeler yetersiz kalabilir, ilişkiler düğümlenebilir ya da çocuğunuzun gelişim basamaklarında kendinizi çaresiz hissedebilirsiniz.
+Toplum bize aileyi hep katı ve şablonik bir çerçevede anlattı. Oysa danışmanlık kapısı aralandığında gördüğümüz gerçek çok daha geniştir:
 
-Üniversite onaylı Aile Danışmanlığı ve Çocuk Gelişimi uzmanlığımla; evlilik, çift iletişimi, ebeveynlik rehberliği, Doğada Aile eko-terapi atölyeleri ve Glucoecosystem bünyesinde Tip 1 diyabetli ailelere özel psikososyal destek ile yanınızdayım.
+Bazen aynı çocukluğu paylaşmış ama yetişkinlikte birbirine yabancılaşmış iki kardeşin sessiz çığlığıdır aile.
+Bazen aynı evi, aynı çatıyı ve hayatın yükünü omuzlayan iki dostun, iki yol arkadaşının ortak yaşamıdır aile.
+Bazen bir ömre söz vermiş ama tartışmaların gürültüsünde birbirinin sesini kaybetmiş iki eşin arayışıdır.
+Bazen de insanın kendi içindeki çocukla barışma yolculuğudur.
 
-Burada; yargılanma kaygısı taşımadan, tamamen mahrem ve korunaklı bir alanda iç dünyanızı ve ailenizi güvenle paylaşabilirsiniz.
+Bizim inancımız açık:
+"İki insanın yan yana geldiği, ortak bir hafızayı ve sorumluluğu paylaştığı her yerde korunmaya ve duyulmaya değer bir yaşam sistemi vardır."
 
-Ailenize ve ilişkinize yeni bir nefes aldırmak için ilk adımı birlikte atalım.
+Ben Aile Danışmanı ve Çocuk Gelişimcisi Hülya Tuncer. Kendi köklerinizde dik dururken aynı gökyüzünde bir olabilmeniz için yanınızdayım.
+
+İlk adımı birlikte atalım.
 
 🌐 Web Sitemiz Yayında: hulyatuncer.com.tr
-📩 Bilgi ve randevu için DM veya profilimizdeki bağlantıyı kullanabilirsiniz.
+📩 Randevu ve bilgi için DM veya profildeki bağlantıyı kullanabilirsiniz.
 
-#AileDanışmanı #HülyaTuncer #ÇocukGelişimi #DoğadaAile #Glucoecosystem #Tip1Diyabet #ÇiftTerapisi #AileDanışmanlığı #GüvenliBağlar
+#AileDanışmanı #HülyaTuncer #Kardeşİlişkileri #OrtakYaşam #ÇiftTerapisi #ÇocukGelişimi #DoğadaAile #Glucoecosystem #SistemikDanışmanlık
 ```
 
 ---
 
-### 📌 Gönderi 2: Mahremiyet & Güvenli Seans Alanı
+### 📌 Gönderi 2: Düğümleri Kesmiyoruz, Dokumaya Dönüştürüyoruz
 * **Görsel:** `assets/img/hulya_tuncer_room_1786609162098.jpg`
 * **Metin:**
 ```text
-🛋️ Birlikte Yeni Bir Sayfa Açalım...
+🪢 Birlikte Yaşamak Düğümler Üretir...
 
-Sorunlarınızı konuşurken kendinizi anlaşılmış, duyulmuş ve güvende hissetmeniz seanslarımızın en temel esasıdır.
+Kardeşler arasında konuşulmamış kırgınlıklar, aynı evi paylaşanların sınır çatışmaları, eşler arasındaki sessiz duvarlar...
 
-Resmi ve soğuk duvarlar yerine; kendinizi evinizde hissettirecek sıcaklıkta, gizlilik ilkesine %100 bağlı online ve yüz yüze seanslarımızda sizleri ağırlıyorum.
+Geleneksel refleks ya düğümü görmezden gelmek ya da bir makasla bağı kesip atmaktır.
 
-▫️ Aile ve Çift Danışmanlığı
+Biz düğümleri kesmiyoruz. 
+Çünkü bir düğüm, kopuşun işareti değil; karşılanmamış bir ihtiyacın, duyulmak isteyen bir yaranın yardım çağrısıdır.
+
+Sistemik terapi ve Şiddetsiz İletişim (NVC) ile seanslarımızda o düğümleri sabırla çözüyoruz. Çözülen her düğüm, ilişkiyi eskisinden daha esnek, dayanıklı ve derin bir yaşam dokusuna dönüştürüyor.
+
+▫️ Kardeş & Birlikte Yaşama Danışmanlığı
+▫️ Çift ve Aile İletişimi
 ▫️ Çocuk Gelişimi & Ebeveyn Rehberliği
-▫️ Doğada Aile Kampları
-▫️ Kronik Hastalık ve T1D Aile Psikososyal Desteği
-
-Yardım istemek bir zayıflık değil; kendinize ve ailenize verdiğiniz en büyük değerdir.
+▫️ Oylat Ormanları Doğada Aile Kampları
 
 📍 Online (Tüm Türkiye & Yurt Dışı) ve Bursa / İnegöl Seansları
 🔗 Randevu: hulyatuncer.com.tr / 0505 578 32 59
 
-#MahremSeans #AileDanışmanlığı #PsikolojikEmniyet #HülyaTuncer #İlişkiİletişimi #EbeveynRehberliği
+#HülyaTuncer #İlişkiİletişimi #KardeşBağı #OrtakYaşam #SistemikTerapi #Şiddetsizİletişim #GüvenliBağlar
 ```
 
 ---
@@ -89,15 +100,16 @@ Yardım istemek bir zayıflık değil; kendinize ve ailenize verdiğiniz en büy
 ```text
 💙 "Diyabet Sadece Kan Şekerinden İbaret Değildir; Ailenin Duygusal Dengesidir."
 
-Tip 1 Diyabet teşhisi alan bir çocukla birlikte tüm ailenin hayatı yeni bir ritme girer. Gece alarmları, hipoglisemi korkusu, okulda çocuğun yanında olamama endişesi ve tükenmişlik hissi...
+Tip 1 Diyabet teşhisi alan bir çocukla birlikte hanenin tüm ritmi değişir. Gece alarmları, hipoglisemi korkusu, okul kaygısı ve ebeveyn tükenmişliği...
 
-Glucoecosystem iş birliğiyle; Tip 1 diyabetli çocukların ebeveynlerine ve gençlere yönelik özel psikososyal danışmanlık hizmetimizi başlattık.
+Diyabet bir ceza veya zayıflık değil; ailenin birbirine kenetlenip daha bilinçli ve dayanıklı bir bağ kurması için derin bir olgunlaşma sürecidir.
 
-Neler Çalışıyoruz?
-✔️ İlk teşhis kabullenme ve şok atlatma
+Glucoecosystem iş birliğiyle; Tip 1 diyabetli çocukların ebeveynlerine, kardeşlerine ve ergenlik çağındaki gençlere özel yapılandırılmış psikososyal rehberlik sunuyoruz:
+
+✔️ İlk teşhis kabullenme ve duygusal regülasyon
 ✔️ Ebeveyn tükenmişliği (Caregiver Burnout) yönetimi
-✔️ Ergenlikte sensör ve teknolojiye uyum süreçleri
-✔️ Kardeşler arası denge ve okul iletişimi
+✔️ Kardeşler arası ilgi dengesi
+✔️ Okul ve akran iletişimi güçlendirme
 
 Yalnız değilsiniz, bu yolu birlikte yürüyeceğiz.
 
