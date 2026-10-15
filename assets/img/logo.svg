@@ -1,97 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 130" width="100%" height="100%" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 140" width="100%" height="100%" fill="none">
   <defs>
-    <!-- Sage to Deep Forest Gradient -->
-    <linearGradient id="univSageGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1B4332" />
-      <stop offset="50%" stop-color="#2D6A4F" />
-      <stop offset="100%" stop-color="#40916C" />
+    <!-- Background glow / soft radial aura -->
+    <radialGradient id="sunAuraH" cx="50%" cy="56%" r="40%">
+      <stop offset="0%" stop-color="#F5EFE6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FDFBF7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Rising Sun Gradient -->
+    <linearGradient id="sunGradH" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#D49B42" />
+      <stop offset="100%" stop-color="#E9BA62" />
     </linearGradient>
 
-    <!-- Warm Terracotta & Peach Gradient -->
-    <linearGradient id="univWarmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#E07A5F" />
-      <stop offset="60%" stop-color="#C27D72" />
-      <stop offset="100%" stop-color="#9B4B42" />
+    <!-- River Pond Water Gradient -->
+    <linearGradient id="waterGradH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#557C83" />
+      <stop offset="50%" stop-color="#3C626A" />
+      <stop offset="100%" stop-color="#284B52" />
     </linearGradient>
 
-    <!-- Golden Aura Gradient -->
-    <linearGradient id="univGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F4A261" />
-      <stop offset="100%" stop-color="#E76F51" />
+    <!-- Left Cradle Wing -->
+    <linearGradient id="leftWingGradH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#727346" />
+      <stop offset="60%" stop-color="#535B3B" />
+      <stop offset="100%" stop-color="#A4854B" />
     </linearGradient>
 
-    <!-- Soft Ambient Shadow -->
-    <filter id="univShadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1B4332" flood-opacity="0.12" />
-    </filter>
+    <!-- Right Cradle Wing -->
+    <linearGradient id="rightWingGradH" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3247" />
+      <stop offset="70%" stop-color="#2A435C" />
+      <stop offset="100%" stop-color="#345470" />
+    </linearGradient>
+
+    <!-- Leaves Gradients -->
+    <linearGradient id="leafMossH" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4E6B5A" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#739281" stop-opacity="0.85" />
+    </linearGradient>
+
+    <linearGradient id="leafMintH" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7D9D9F" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#A5C2C4" stop-opacity="0.85" />
+    </linearGradient>
+
+    <linearGradient id="leafPeachH" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BD7E62" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#DBA48E" stop-opacity="0.85" />
+    </linearGradient>
+
+    <linearGradient id="leafIndigoH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E4A62" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#456682" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="leafTopH" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#93A9A7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#D3CBC2" />
+    </linearGradient>
+
+    <!-- Gold Contour for Human Silhouettes -->
+    <linearGradient id="contourGoldH" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C59B51" />
+      <stop offset="50%" stop-color="#BA8E42" />
+      <stop offset="100%" stop-color="#9E7530" />
+    </linearGradient>
   </defs>
 
-  <!-- EMBLEM SECTION (Scaled to fit 110x110 at x=10, y=10) -->
-  <g transform="translate(10, 8) scale(0.56)" filter="url(#univShadow)">
-    <!-- Outer balance rings -->
-    <circle cx="100" cy="100" r="92" stroke="#2D6A4F" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.25" />
-    <circle cx="100" cy="100" r="96" stroke="#C27D72" stroke-width="1" opacity="0.18" />
+  <!-- EMBLEM SCALED (Width ~ 125, Height ~ 125, Translate x=10, y=8, Scale = 0.25) -->
+  <g transform="translate(10, 8) scale(0.248)">
+    <circle cx="250" cy="270" r="160" fill="url(#sunAuraH)" />
+    <path d="M 210 295 A 40 40 0 0 1 290 295 Z" fill="url(#sunGradH)" />
 
-    <!-- Parent / Shelter Arch -->
-    <path d="M 68 152
-             C 42 136, 30 102, 42 70
-             C 52 44, 76 34, 100 48
-             C 106 52, 110 58, 110 65
-             C 110 74, 102 82, 92 80
-             C 74 76, 60 90, 60 108
-             C 60 126, 75 142, 94 148
-             C 84 152, 75 153, 68 152 Z"
-          fill="url(#univSageGrad)" />
+    <!-- Water Base -->
+    <path d="M 152 320 C 152 295, 348 295, 348 320 C 348 358, 152 358, 152 320 Z" fill="url(#waterGradH)" />
+    <!-- S-Curve River -->
+    <path d="M 210 297 C 240 297, 275 303, 275 312 C 275 322, 215 324, 205 334 C 195 344, 255 352, 285 352 C 245 358, 185 352, 195 336 C 205 322, 260 320, 260 310 C 260 304, 230 299, 210 297 Z" fill="#FDFBF7" />
 
-    <!-- Child / Sprout Embrace -->
-    <path d="M 100 162
-             C 124 154, 158 132, 162 98
-             C 165 72, 148 48, 122 42
-             C 114 40, 104 43, 102 51
-             C 100 58, 106 65, 114 68
-             C 130 74, 138 90, 134 108
-             C 130 126, 116 142, 98 150
-             C 99 154, 99.5 158, 100 162 Z"
-          fill="url(#univWarmGrad)" />
+    <!-- Left & Right Cradle Wings -->
+    <path d="M 90 200 C 72 260, 95 345, 170 395 C 235 438, 305 425, 318 412 C 260 418, 190 395, 140 345 C 95 300, 85 245, 90 200 Z" fill="url(#leftWingGradH)" />
+    <path d="M 410 206 C 426 270, 400 350, 328 402 C 318 410, 312 414, 300 416 C 335 390, 355 345, 345 295 C 338 260, 310 230, 290 215 C 330 230, 395 240, 410 206 Z" fill="url(#rightWingGradH)" />
 
-    <!-- Inner Bond Loop -->
-    <path d="M 94 148
-             C 80 134, 76 112, 86 94
-             C 94 80, 110 82, 118 96
-             C 124 108, 118 126, 104 136
-             C 96 144, 95 146, 94 148 Z"
-          fill="#52B788"
-          opacity="0.9" />
+    <!-- Leaves -->
+    <path d="M 210 295 C 208 260, 250 240, 252 195" stroke="#2D4A43" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 252 195 C 215 190, 188 155, 190 115 C 220 125, 245 160, 252 195 Z" fill="url(#leafMossH)" />
+    <path d="M 252 195 C 235 160, 230 110, 250 72 C 268 110, 260 160, 252 195 Z" fill="url(#leafMintH)" />
+    <path d="M 250 72 C 242 90, 246 115, 252 135 C 258 115, 262 90, 250 72 Z" fill="url(#leafTopH)" />
+    <path d="M 252 195 C 265 160, 285 130, 308 118 C 308 145, 285 178, 252 195 Z" fill="url(#leafPeachH)" />
+    <path d="M 252 195 C 275 205, 305 190, 314 165 C 295 165, 268 180, 252 195 Z" fill="url(#leafIndigoH)" />
 
-    <!-- Child Head Node -->
-    <ellipse cx="102" cy="74" rx="7.5" ry="9" fill="url(#univGoldGrad)" />
+    <!-- Sun Sphere -->
+    <circle cx="250" cy="52" r="12" fill="url(#sunGradH)" />
 
-    <!-- Parent Head Node -->
-    <ellipse cx="88" cy="44" rx="9" ry="10" fill="url(#univSageGrad)" />
-
-    <!-- Health / Vitality Drop Accent -->
-    <circle cx="128" cy="54" r="5" fill="#3B82F6" opacity="0.85" />
+    <!-- Facing Profiles -->
+    <path d="M 125 142 C 152 155, 172 185, 175 220 C 176 226, 174 230, 185 233 C 192 235, 190 242, 184 246 C 178 250, 186 256, 186 262 C 186 268, 176 272, 173 277 C 168 284, 150 295, 142 345" stroke="url(#contourGoldH)" stroke-width="4.5" stroke-linecap="round" fill="none" />
+    <path d="M 380 165 C 355 178, 335 210, 328 238 C 326 244, 328 248, 320 252 C 314 255, 315 260, 320 264 C 324 268, 318 274, 320 280 C 322 286, 328 290, 330 298 C 334 315, 350 335, 354 350" stroke="url(#contourGoldH)" stroke-width="4.5" stroke-linecap="round" fill="none" />
   </g>
 
-  <!-- TYPOGRAPHY SECTION -->
-  <g transform="translate(138, 22)">
-    <!-- Main Name -->
-    <text x="0" y="44" font-family="'Plus Jakarta Sans', 'Playfair Display', Georgia, system-ui, -apple-system, sans-serif" font-size="36" font-weight="800" fill="#153329" letter-spacing="-0.6">
+  <!-- TYPOGRAPHY -->
+  <g transform="translate(150, 26)">
+    <!-- Primary Name -->
+    <text x="0" y="44" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" fill="#1C382F" letter-spacing="-0.5">
       Hülya Tuncer
     </text>
 
-    <!-- Subtitle (Title / Specialty) -->
-    <text x="2" y="68" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#C27D72" letter-spacing="1.4">
+    <!-- Subtitle (Title) -->
+    <text x="2" y="70" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#BA8E42" letter-spacing="1.5">
       AİLE DANIŞMANI &amp; ÇOCUK GELİŞİMCİSİ
     </text>
 
-    <!-- Pillar Keywords / Tagline -->
-    <g transform="translate(2, 86)" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">
-      <text x="0" y="0" fill="#2D6A4F">Güvenli Bağlar</text>
-      <circle cx="76" cy="-3.5" r="2" fill="#CBD5E1" />
-      <text x="86" y="0" fill="#2D6A4F">Doğada Aile</text>
-      <circle cx="156" cy="-3.5" r="2" fill="#CBD5E1" />
-      <text x="166" y="0" fill="#1D4ED8">Gluco Destek</text>
+    <!-- Brand Pillars -->
+    <g transform="translate(2, 90)" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="500">
+      <text x="0" y="0" fill="#4E6B5A">Güvenli Bağlar</text>
+      <circle cx="82" cy="-3.5" r="2" fill="#D1D5DB" />
+      <text x="94" y="0" fill="#4E6B5A">Doğada Aile</text>
+      <circle cx="170" cy="-3.5" r="2" fill="#D1D5DB" />
+      <text x="182" y="0" fill="#2A435C">Gluco Destek</text>
     </g>
   </g>
 </svg>
