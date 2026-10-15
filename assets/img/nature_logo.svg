@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="none"/>
+  
+  <!-- Outer Shield -->
+  <path d="M 250, 35 C 340, 55 410, 60 410, 110 C 410, 240 370, 330 250, 400 C 130, 330 90, 240 90, 110 C 90, 60 160, 55 250, 35 Z" fill="none" stroke="#1E3A8A" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M 250, 48 C 330, 66 395, 71 395, 115 C 395, 230 358, 315 250, 382 C 142, 315 105, 230 105, 115 C 105, 71 170, 66 250, 48 Z" fill="none" stroke="#1E3A8A" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Golden Warm Embrace Circle Arc -->
+  <path d="M 160, 195 A 100,100 0 1,1 340, 195" fill="none" stroke="#D97706" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Family Figures (Golden/Amber) -->
+  <!-- Father (Left) -->
+  <circle cx="205" cy="150" r="14" fill="#D97706"/>
+  <path d="M 190, 172 C 190, 166 220, 166 220, 172 L 225, 220 C 225, 225 215, 225 215, 220 L 210, 255 L 200, 255 L 195, 220 C 195, 225 185, 225 185, 220 Z" fill="#D97706"/>
+
+  <!-- Child (Center) -->
+  <circle cx="250" cy="180" r="10" fill="#D97706"/>
+  <path d="M 240, 195 C 240, 191 260, 191 260, 195 L 263, 230 L 237, 230 Z" fill="#D97706"/>
+
+  <!-- Mother (Right) -->
+  <circle cx="295" cy="150" r="14" fill="#D97706"/>
+  <path d="M 280, 172 C 280, 166 310, 166 310, 172 L 315, 215 L 305, 255 L 295, 255 L 292, 220 L 288, 220 L 285, 255 L 275, 255 L 265, 215 Z" fill="#D97706"/>
+
+  <!-- Connecting Hands (Family Unity) -->
+  <path d="M 195, 190 Q 220, 205 240, 205 Q 260, 205 285, 190" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Stylized Plane Tree Leaf / Open Book (Denge Yeşili #0D9488) -->
+  <g fill="#0D9488">
+    <!-- Center Main Leaf Stem & Body -->
+    <path d="M 250, 240 Q 235, 270 210, 280 Q 230, 290 230, 310 Q 245, 295 250, 270 Q 255, 295 270, 310 Q 270, 290 290, 280 Q 265, 270 250, 240 Z"/>
+    <!-- Left Wing Leaf / Book Page -->
+    <path d="M 245, 280 C 210, 280 180, 295 160, 320 Q 205, 315 245, 295 Z"/>
+    <!-- Right Wing Leaf / Book Page -->
+    <path d="M 255, 280 C 290, 280 320, 295 340, 320 Q 295, 315 255, 295 Z"/>
+    <!-- Leaf Stem -->
+    <rect x="247" y="310" width="6" height="25" rx="3"/>
+  </g>
+
+  <!-- Typography Below Shield -->
+  <text x="250" y="435" text-anchor="middle" font-family="'Inter', 'Merriweather', sans-serif" font-weight="700" font-size="22" fill="#1E3A8A" letter-spacing="2">İNEGÖL BELEDİYESİ</text>
+  <text x="250" y="468" text-anchor="middle" font-family="'Inter', 'Merriweather', sans-serif" font-weight="800" font-size="28" fill="#1E3A8A" letter-spacing="3">AİLE AKADEMİSİ</text>
+</svg>

@@ -1,0 +1,135 @@
+/* Hülya Tuncer Marka & Web Sitesi Özel Stilleri */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap');
+
+:root {
+  --color-primary: #2E6B56;
+  --color-primary-dark: #1E493A;
+  --color-primary-light: #458B71;
+  --color-sage-soft: #F2F7F4;
+  --color-earth: #7A5A3A;
+  --color-terracotta: #C27D72;
+  --color-terracotta-soft: #FCF4F3;
+  --color-gluco: #1D4ED8;
+  --color-gluco-soft: #EFF6FF;
+  --color-bg-warm: #FAF8F5;
+  --color-text-main: #1F2937;
+  --color-text-muted: #6B7280;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: var(--color-text-main);
+  background-color: #FFFFFF;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Glassmorphism effects */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(229, 231, 235, 0.7);
+}
+
+/* Animations */
+@keyframes pulseSubtle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes floatSoft {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 2.5s infinite ease-in-out;
+}
+
+.animate-float {
+  animation: floatSoft 4s infinite ease-in-out;
+}
+
+/* Card hover transitions */
+.service-card {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 30px -10px rgba(46, 107, 86, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Badge highlights */
+.badge-sage {
+  background-color: #E8F2EC;
+  color: #235443;
+}
+
+.badge-terracotta {
+  background-color: #FCECE9;
+  color: #A34E42;
+}
+
+.badge-gluco {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F3F4F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Floating Action Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  box-shadow: 0 10px 25px -5px rgba(37, 211, 102, 0.4), 0 8px 10px -6px rgba(37, 211, 102, 0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.08) translateY(-2px);
+  box-shadow: 0 14px 28px -5px rgba(37, 211, 102, 0.5);
+}
+
+/* Accordion transition */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.faq-item.active .faq-chevron {
+  transform: rotate(180deg);
+}
