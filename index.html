@@ -16,7 +16,7 @@
   <meta property="og:image" content="assets/img/hulya_tuncer_launch_1786609145211.jpg">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="assets/img/logo_emblem.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo_emblem.svg?v=4">
 
   <!-- Tailwind CSS via CDN with customized theme -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -90,11 +90,15 @@
         
         <!-- Logo -->
         <a href="#" class="flex items-center gap-3">
-          <img src="assets/img/logo.svg" alt="Hülya Tuncer Logo" class="h-12 w-auto">
+          <img src="assets/img/logo.svg?v=4" alt="Hülya Tuncer Logo" class="h-12 w-auto">
         </a>
 
         <!-- Masaüstü Menü -->
-        <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-stone-700">
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-stone-700">
+          <a href="#felsefe" class="hover:text-brand-500 text-brand-700 font-semibold transition flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+            Felsefe & Hikaye
+          </a>
           <a href="#hakkimda" class="hover:text-brand-500 transition">Hakkımda</a>
           <a href="#hizmetler" class="hover:text-brand-500 transition">Hizmet Alanları</a>
           <a href="#dogada-aile" class="hover:text-brand-500 transition flex items-center gap-1.5">
@@ -129,6 +133,7 @@
 
     <!-- Mobil Açılır Menü -->
     <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-stone-200 px-4 pt-3 pb-6 space-y-3">
+      <a href="#felsefe" class="mobile-nav-link block py-2 text-brand-700 font-bold hover:text-brand-500">✨ Marka Felsefemiz & Hikaye</a>
       <a href="#hakkimda" class="mobile-nav-link block py-2 text-stone-700 font-medium hover:text-brand-500">Hakkımda</a>
       <a href="#hizmetler" class="mobile-nav-link block py-2 text-stone-700 font-medium hover:text-brand-500">Hizmet Alanları</a>
       <a href="#dogada-aile" class="mobile-nav-link block py-2 text-emerald-700 font-medium hover:text-brand-500">🌲 Doğada Aile Kampları</a>
@@ -207,14 +212,17 @@
               </div>
             </div>
 
-            <!-- Kayan Rozet 1 (Sol Üst) -->
-            <div class="absolute -top-4 -left-4 glass-panel p-3.5 rounded-xl shadow-lg border border-white/60 animate-float hidden sm:flex items-center gap-3">
-              <span class="text-2xl">🌱</span>
-              <div>
-                <p class="text-xs font-bold text-stone-900">Doğada Aile Modeli</p>
-                <p class="text-[11px] text-stone-500">Oylat & Doğa Kampları</p>
+            <!-- Kayan Rozet 1 (Sol Üst - Master Marka Kimliği) -->
+            <a href="#felsefe" class="absolute -top-5 -left-5 bg-white/95 backdrop-blur-md p-2.5 rounded-2xl shadow-xl border border-stone-200/80 animate-float hidden sm:flex items-center gap-3 hover:scale-105 transition group" title="Marka Hikayesini İncele">
+              <img src="assets/img/master_symbol_square.png?v=4" alt="Hülya Tuncer Amblem" class="w-12 h-12 rounded-xl object-cover ring-2 ring-emerald-500/20 shadow-xs">
+              <div class="pr-2">
+                <p class="text-xs font-bold text-stone-900 group-hover:text-brand-600 transition">Karşılaşma & Akış</p>
+                <p class="text-[10px] text-brand-600 font-semibold flex items-center gap-1">
+                  <span>Marka Felsefesi</span>
+                  <span class="text-stone-400">→</span>
+                </p>
               </div>
-            </div>
+            </a>
 
             <!-- Kayan Rozet 2 (Sağ Alt) -->
             <div class="absolute -bottom-4 -right-4 glass-panel p-3.5 rounded-xl shadow-lg border border-white/60 hidden sm:flex items-center gap-3">
@@ -262,6 +270,244 @@
         </div>
 
       </div>
+    </div>
+  </section>
+
+  <!-- 4.5. MARKA FELSEFEMİZ & HİKAYEMİZ (Karşılaşma, Akış ve Büyüme) -->
+  <section id="felsefe" class="py-24 bg-gradient-to-b from-stone-50 via-white to-stone-50/60 border-b border-stone-200/80 relative overflow-hidden">
+    
+    <!-- Arka Plan Dekoratif Işık Hüzmeleri -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-gradient-to-tr from-brand-100/40 via-terracotta-100/30 to-emerald-100/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Başlık ve Giriş -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-50 border border-brand-200 text-brand-700 text-xs sm:text-sm font-semibold tracking-wide mb-4 shadow-2xs">
+          <span class="w-2 h-2 rounded-full bg-brand-500 animate-ping"></span>
+          <span>🌿 HÜLYA TUNCER MARKA FELSEFESİ & HİKAYESİ</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-stone-900 tracking-tight leading-tight">
+          Karşılaşma, Akış ve Büyüme: <br>
+          <span class="bg-gradient-to-r from-brand-600 via-emerald-600 to-terracotta-500 bg-clip-text text-transparent">İki Özerk İnsanın Ortak Gökyüzü</span>
+        </h2>
+        <p class="mt-4 text-base sm:text-lg text-stone-600 leading-relaxed font-normal">
+          Bir aile danışmanının ilgi odağı sadece çekirdek aile değildir. Birlikte büyüyen iki kardeş, aynı evi ve hayatı paylaşan iki yol arkadaşı, bir ömre söz vermiş eşler veya bir ebeveynle çocuğu... Birbirini tüketmeden, göz hizasında ve şefkatle var olan tüm insan bağlarının görsel manifestosu.
+        </p>
+      </div>
+
+      <!-- Ana İçerik: Master Sembol Görseli + 5 Katmanlı Hikaye -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-20">
+        
+        <!-- Sol Kolon: Master Sembol Vitrini (5 Kolon) -->
+        <div class="lg:col-span-5 text-center">
+          <div class="relative inline-block mx-auto">
+            
+            <!-- Arka Plan Işıltısı -->
+            <div class="absolute -inset-4 bg-gradient-to-tr from-brand-200/50 to-terracotta-200/40 rounded-3xl blur-md"></div>
+            
+            <!-- Ana Sembol Kartı -->
+            <div class="relative bg-[#FAF7F2] rounded-3xl p-6 shadow-2xl border-4 border-white overflow-hidden text-center max-w-sm mx-auto">
+              
+              <!-- Üst Rozet -->
+              <div class="inline-block bg-white/80 border border-stone-200/70 text-stone-700 text-[11px] font-semibold px-3 py-1 rounded-full mb-3 shadow-2xs">
+                ✨ Tescilli Resmi Amblem
+              </div>
+
+              <!-- Master Görsel -->
+              <img src="assets/img/master_symbol.png?v=4" alt="Hülya Tuncer Master Logo - İki Profil, Nehir, Doğan Güneş ve Yaşam Filizi" class="w-full h-auto max-h-[340px] object-contain mx-auto transition-transform duration-500 hover:scale-105">
+
+              <!-- Tipografi ve Kimlik -->
+              <div class="pt-4 border-t border-stone-200/60 mt-4">
+                <h3 class="text-xl font-bold font-serif text-stone-900 tracking-tight">Hülya Tuncer</h3>
+                <p class="text-xs font-semibold text-brand-700 uppercase tracking-widest mt-0.5">Aile & İlişki Danışmanlığı</p>
+                <p class="text-[11px] text-stone-500 mt-1">Çocuk Gelişimi & Ebeveyn Rehberliği</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Alıntı Kutusu -->
+          <div class="mt-6 max-w-sm mx-auto p-4 rounded-2xl bg-white border border-stone-200/80 shadow-xs text-left">
+            <p class="text-xs text-stone-600 italic leading-relaxed">
+              “İki insan birbirine baktığında iki dünya karşılaşır. Aradaki düğümler çözüldüğünde hayatın nehri dingin akar ve yeni bir gün doğar.”
+            </p>
+            <p class="text-[11px] font-bold text-brand-700 mt-2 text-right">— Hülya Tuncer</p>
+          </div>
+
+        </div>
+
+        <!-- Sağ Kolon: Hikayenin 5 Temel Katmanı (7 Kolon) -->
+        <div class="lg:col-span-7 space-y-4">
+          
+          <!-- Katman 1: İki Profil -->
+          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-brand-300 hover:shadow-md transition">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-700 font-bold text-sm shrink-0">
+                01
+              </div>
+              <div class="space-y-1">
+                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
+                  <span>İki Karşılaşan Profil: Göz Hizası & Eşitlik</span>
+                  <span class="text-xs font-normal text-brand-600 bg-brand-50 px-2 py-0.5 rounded-full">Ben ve Sen</span>
+                </h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  Sembolün iki kenarında altın çizgilerle karşılıklı duran iki insan silueti. Biri diğerini yutmaz, baskılamaz veya dönüştürmeye zorlamaz. İki kardeş, aynı evi paylaşan iki dost ya da eşler; kendi özerkliğini koruyarak birbiriyle göz hizasında ve şefkatle temas eder.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Katman 2: Akan Dingin Nehir -->
+          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-blue-300 hover:shadow-md transition">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-700 font-bold text-sm shrink-0">
+                02
+              </div>
+              <div class="space-y-1">
+                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
+                  <span>Akan Dingin Mavi Nehir: İletişim & Duygu Akışı</span>
+                  <span class="text-xs font-normal text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">Düğümlerin Çözülmesi</span>
+                </h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  İki profilin arasından süzülerek uzağa uzanan mavi yol, paylaşılan hayatın ve duygu akışının sembolüdür. İlişkilerdeki krizler, bu nehrin önüne düşen taşlardır; seanslarda amaç nehri kurutmak değil, akışın önündeki tortuları sevgiyle temizlemektir.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Katman 3: Doğan Güneş -->
+          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-amber-300 hover:shadow-md transition">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-700 font-bold text-sm shrink-0">
+                03
+              </div>
+              <div class="space-y-1">
+                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
+                  <span>Doğan Şafak Güneşi: Umut & Yeni Başlangıç</span>
+                  <span class="text-xs font-normal text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">İçsel Uyanış</span>
+                </h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  Ufukta beliren altın güneş, yaşanan her zorluğun ardından doğacak yeni bir günün müjdecisidir. Farkındalıkla aydınlanan zihin, krizleri birer yıkım değil, olgunlaşma ve kenetlenme fırsatına dönüştürür.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Katman 4: Yaşam Filizi -->
+          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-emerald-300 hover:shadow-md transition">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 font-bold text-sm shrink-0">
+                04
+              </div>
+              <div class="space-y-1">
+                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
+                  <span>Çok Renkli Yaşam Filizi: Büyüme & Doğa</span>
+                  <span class="text-xs font-normal text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">Doğada Aile & T1D</span>
+                </h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  Merkezden göğe uzanan adaçayı yeşili, terakota mercan ve dingin okyanus tonlarındaki yapraklar; çocuk gelişimini, Doğada Aile atölyelerinin canlılığını ve Glucoecosystem Tip 1 Diyabet aile desteğinin psikososyal direncini simgeler.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Katman 5: Altın Küre -->
+          <div class="bg-white p-5 rounded-2xl border border-stone-200/90 shadow-xs hover:border-amber-300 hover:shadow-md transition">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-stone-100 border border-stone-200 flex items-center justify-center text-stone-700 font-bold text-sm shrink-0">
+                05
+              </div>
+              <div class="space-y-1">
+                <h4 class="text-base font-bold text-stone-900 flex items-center gap-2">
+                  <span>Zirvedeki Altın Küre: Güvenli Kucak</span>
+                  <span class="text-xs font-normal text-stone-600 bg-stone-100 px-2 py-0.5 rounded-full">Holding Environment</span>
+                </h4>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                  En üstte süzülen altın cevher, danışmanlık sürecinin sağladığı güvenli limanı ve ortak aklı temsil eder. Bireyler bu güvenli alanda yargılanmadan kendileri olabilirler.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Gerçek Hayat Yansımaları: Mockup Galerisi -->
+      <div class="pt-8 border-t border-stone-200/80">
+        
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <span class="text-xs font-bold text-brand-600 uppercase tracking-widest block">GERÇEK HAYAT UYGULAMALARI</span>
+          <h3 class="text-2xl sm:text-3xl font-bold text-stone-900 mt-1">Kimliğin Hayattaki Yansıması</h3>
+          <p class="text-xs sm:text-sm text-stone-500 mt-2">
+            Belirlenen amblem ve felsefe; klinikten danışan günlüğüne, kurumsal dosyadan basılı materyallere kadar tutarlı bir güven dili oluşturur.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Mockup 1: Klinik Girişi -->
+          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-stone-200 group">
+            <div class="h-64 overflow-hidden bg-stone-100 relative">
+              <img src="assets/img/mockup_clinic_sign.jpg?v=4" alt="Klinik ve Seans Karşılama Tabelası Mockup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute top-3 left-3 bg-stone-900/70 text-white text-[10px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-xs">
+                Klinik Karşılama
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-bold text-stone-950 text-base">Klinik & Seans Karşılama</h4>
+              <p class="text-xs text-stone-500 mt-1 leading-relaxed">
+                İskandinav estetiğinde traverten ve meşe dokulu duvar plaketi. Danışan içeri girdiği ilk andan itibaren güven ve huzur hisseder.
+              </p>
+            </div>
+          </div>
+
+          <!-- Mockup 2: Kurumsal Kırtasiye & Dosya -->
+          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-stone-200 group">
+            <div class="h-64 overflow-hidden bg-stone-100 relative">
+              <img src="assets/img/mockup_stationery.jpg?v=4" alt="Lüks Kurumsal Kırtasiye ve Danışan Dosyası Mockup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute top-3 left-3 bg-stone-900/70 text-white text-[10px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-xs">
+                Danışan Dosyası
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-bold text-stone-950 text-base">Lüks Kırtasiye & Kartvizit</h4>
+              <p class="text-xs text-stone-500 mt-1 leading-relaxed">
+                Ağır gramajlı pamuklu kağıt üzerine sıcak altın varak kabartma. Gizlilik ve ciddiyet prensibini dokunsal olarak hissettirir.
+              </p>
+            </div>
+          </div>
+
+          <!-- Mockup 3: Terapi Günlüğü -->
+          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-stone-200 group">
+            <div class="h-64 overflow-hidden bg-stone-100 relative">
+              <img src="assets/img/mockup_therapy_notebook.jpg?v=4" alt="Terapötik Danışan Günlüğü ve Defter Mockup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <div class="absolute top-3 left-3 bg-stone-900/70 text-white text-[10px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-xs">
+                Seans Defteri
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-bold text-stone-950 text-base">Terapötik Danışan Günlüğü</h4>
+              <p class="text-xs text-stone-500 mt-1 leading-relaxed">
+                Adaçayı yeşili keten kapaklı, altın varak amblemli terapi defteri. Danışanın kendi içsel yolculuğunu not ettiği kıymetli alan.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Buton & Link -->
+        <div class="text-center mt-10">
+          <a href="logo_showcase.html" class="inline-flex items-center gap-2 bg-stone-900 hover:bg-brand-600 text-white font-semibold text-xs sm:text-sm px-7 py-3 rounded-full shadow-md hover:shadow-lg transition">
+            <span>Marka Kitini ve Tüm Vektörel Varlıkları İncele</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+
+      </div>
+
     </div>
   </section>
 
@@ -873,8 +1119,11 @@
         <!-- Kolon 1: Logo & Misyon -->
         <div class="space-y-4">
           <div class="flex items-center gap-3">
-            <img src="assets/img/master_symbol_square.png" alt="Hülya Tuncer Amblem" class="w-9 h-9 rounded-full object-cover shadow-sm">
-            <span class="text-xl font-bold text-white font-serif">Hülya Tuncer</span>
+            <img src="assets/img/master_symbol_square.png?v=4" alt="Hülya Tuncer Amblem" class="w-11 h-11 rounded-xl object-cover shadow-sm ring-1 ring-emerald-500/30">
+            <div>
+              <span class="text-xl font-bold text-white font-serif block">Hülya Tuncer</span>
+              <span class="text-[10px] text-stone-400 tracking-wider uppercase block">Aile & İlişki Danışmanı</span>
+            </div>
           </div>
           <p class="text-xs text-stone-400 leading-relaxed">
             Üniversite Onaylı Sertifikalı Aile Danışmanı & Çocuk Gelişimcisi. Güvenli bağlar, sağlıklı büyüyen çocuklar ve huzurlu evler için bilimsel rehberlik.
@@ -890,13 +1139,14 @@
         <div class="space-y-3">
           <h5 class="text-sm font-bold text-white uppercase tracking-wider">Hızlı Erişim</h5>
           <ul class="text-xs space-y-2 text-stone-400">
+            <li><a href="#felsefe" class="hover:text-emerald-400 text-emerald-300 font-semibold transition">✨ Marka Felsefesi & Hikaye</a></li>
             <li><a href="#hakkimda" class="hover:text-emerald-400 transition">Hakkımda</a></li>
             <li><a href="#hizmetler" class="hover:text-emerald-400 transition">Aile & Çift Danışmanlığı</a></li>
             <li><a href="#hizmetler" class="hover:text-emerald-400 transition">Çocuk Gelişimi & Ebeveynlik</a></li>
             <li><a href="#dogada-aile" class="hover:text-emerald-400 transition">Doğada Aile Kampları</a></li>
             <li><a href="#glucoecosystem" class="hover:text-blue-400 transition">Glucoecosystem T1D Desteği</a></li>
             <li><a href="#sss" class="hover:text-emerald-400 transition">Sıkça Sorulan Sorular</a></li>
-            <li><a href="logo_showcase.html" class="hover:text-emerald-400 text-emerald-300 font-semibold transition">🎨 Marka & Logo Kiti</a></li>
+            <li><a href="logo_showcase.html" class="hover:text-emerald-400 text-stone-300 transition">🎨 Kurumsal Kimlik & Logo Kiti</a></li>
           </ul>
         </div>
 
