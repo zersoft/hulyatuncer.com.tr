@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <!-- Concept 2: "Kesişen Halkalar & Ortak Yaşam Filizi" (The Resonant Living Rings) -->
+  <!-- "Senin alanın, benim alanım ve birlikte var ettiğimiz ortak evimiz." -->
+  <defs>
+    <!-- Left Ring: Forest Sage Gradient -->
+    <linearGradient id="ringLeftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B4332" />
+      <stop offset="50%" stop-color="#2D6A4F" />
+      <stop offset="100%" stop-color="#52B788" />
+    </linearGradient>
+
+    <!-- Right Ring: Terracotta & Warm Gold Gradient -->
+    <linearGradient id="ringRightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B26354" />
+      <stop offset="60%" stop-color="#D48B70" />
+      <stop offset="100%" stop-color="#EAA69A" />
+    </linearGradient>
+
+    <!-- Overlapping Intersection Glow -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF8EE" />
+      <stop offset="100%" stop-color="#FAF0DF" />
+    </radialGradient>
+
+    <!-- Golden Sprout Gradient -->
+    <linearGradient id="sproutGold" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#D49B42" />
+      <stop offset="50%" stop-color="#E9BA62" />
+      <stop offset="100%" stop-color="#FCE198" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background subtle aura -->
+  <circle cx="200" cy="200" r="170" fill="#FAF8F5" />
+
+  <!-- 1. LEFT RING (Birey 1: Bağımsız Sınırlar, Kendi Kimliği) -->
+  <circle cx="160" cy="200" r="100" stroke="url(#ringLeftGrad)" stroke-width="8" stroke-linecap="round" opacity="0.9" />
+
+  <!-- 2. RIGHT RING (Birey 2: Bağımsız Sınırlar, Kendi Kimliği) -->
+  <circle cx="240" cy="200" r="100" stroke="url(#ringRightGrad)" stroke-width="8" stroke-linecap="round" opacity="0.9" />
+
+  <!-- 3. SACRED INTERSECTION / VESICA PISCIS (Ortak Alan / Yaşam / Çatı) -->
+  <!-- Clip/Fill of the shared intersection area -->
+  <g>
+    <!-- Soft luminous fill inside intersection -->
+    <path d="M 200 119
+             C 225 145, 235 175, 235 200
+             C 235 225, 225 255, 200 281
+             C 175 255, 165 225, 165 200
+             C 165 175, 175 145, 200 119 Z"
+          fill="url(#centerGlow)"
+          opacity="0.95" />
+
+    <!-- Overlapping Ribbon weave accent -->
+    <path d="M 200 119
+             C 215 145, 222 172, 222 200
+             C 222 228, 215 255, 200 281"
+          stroke="#E6A64C"
+          stroke-width="3"
+          stroke-dasharray="3 4"
+          fill="none" />
+  </g>
+
+  <!-- 4. BLOOMING EMBLEM FROM THE SHARED SPACE (Ortak Alandan Doğan Yaşam) -->
+  <!-- Root / Stem rising from the bottom intersection -->
+  <path d="M 200 270 C 196 230, 204 180, 200 135" stroke="#2D6A4F" stroke-width="3" stroke-linecap="round" fill="none" />
+
+  <!-- Central Lotus / Sprout Leaves -->
+  <!-- Center Main Leaf -->
+  <path d="M 200 135 C 190 105, 192 80, 200 55 C 208 80, 210 105, 200 135 Z" fill="url(#sproutGold)" />
+
+  <!-- Left Leaf -->
+  <path d="M 200 155 C 178 140, 168 115, 170 95 C 188 100, 198 125, 200 155 Z" fill="#52B788" />
+
+  <!-- Right Leaf -->
+  <path d="M 200 155 C 222 140, 232 115, 230 95 C 212 100, 202 125, 200 155 Z" fill="#D48B70" />
+
+  <!-- Top Enlightenment Sphere -->
+  <circle cx="200" cy="42" r="8" fill="#E6A64C" />
+
+  <!-- Base Connection Water / Balance Line -->
+  <path d="M 120 310 Q 200 325 280 310" stroke="#8C7355" stroke-width="2" stroke-linecap="round" opacity="0.4" />
+</svg>

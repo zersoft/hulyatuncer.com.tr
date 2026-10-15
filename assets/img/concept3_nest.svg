@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <!-- Concept 3: "Organik Yuva & Yaşam Çekirdeği" (The Living Sanctuary / Woven Nest) -->
+  <!-- "Aynı çatı altında güvende hissetmek; sarıp sarmalayan mahrem bir yuva." -->
+  <defs>
+    <linearGradient id="nestBranch1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A43" />
+      <stop offset="70%" stop-color="#408060" />
+      <stop offset="100%" stop-color="#6BB087" />
+    </linearGradient>
+
+    <linearGradient id="nestBranch2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B26354" />
+      <stop offset="70%" stop-color="#C97B6D" />
+      <stop offset="100%" stop-color="#D49B42" />
+    </linearGradient>
+
+    <linearGradient id="nestCore" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D49B42" />
+      <stop offset="50%" stop-color="#F4A261" />
+      <stop offset="100%" stop-color="#FFF2D4" />
+    </linearGradient>
+
+    <filter id="softNestGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <circle cx="200" cy="200" r="170" fill="#FAF8F5" />
+
+  <!-- 1. WOVEN EMBRACING BOWL / CRADLE (Yuvanın Taban Hatları) -->
+  <!-- Outer Sweep 1: Left to Bottom Right -->
+  <path d="M 85 170
+           C 65 240, 110 320, 200 330
+           C 270 338, 325 295, 335 240
+           C 305 280, 250 305, 195 298
+           C 135 290, 95 235, 105 170 Z"
+        fill="url(#nestBranch1)" />
+
+  <!-- Outer Sweep 2: Right to Bottom Left (Interlocking) -->
+  <path d="M 315 170
+           C 335 240, 290 320, 200 330
+           C 150 336, 100 305, 75 255
+           C 105 285, 160 305, 210 298
+           C 265 290, 305 235, 295 170 Z"
+        fill="url(#nestBranch2)"
+        opacity="0.9" />
+
+  <!-- 2. INNER WOVEN RIBBONS (Çatıyı ve Güveni Oluşturan Bağlar) -->
+  <path d="M 100 210 Q 200 300 300 210 Q 200 270 100 210 Z" fill="#E6A64C" opacity="0.65" />
+  <path d="M 120 230 Q 200 290 280 230 Q 200 275 120 230 Z" fill="#FAF0DF" />
+
+  <!-- 3. RISING WINGS / SHELTER ARCHES (Yukarıya Açılan Şefkat Dalları) -->
+  <!-- Left Wing -->
+  <path d="M 105 170 C 95 120, 130 75, 175 60 C 150 85, 140 125, 145 165 Z" fill="url(#nestBranch1)" />
+  <!-- Right Wing -->
+  <path d="M 295 170 C 305 120, 270 75, 225 60 C 250 85, 260 125, 255 165 Z" fill="url(#nestBranch2)" />
+
+  <!-- 4. THE RADIANT HEART / GOLDEN SEED (Yuvada Büyüyen Hayat & İyileşme) -->
+  <g filter="url(#softNestGlow)">
+    <circle cx="200" cy="180" r="32" fill="url(#nestCore)" />
+  </g>
+  <circle cx="200" cy="180" r="26" fill="#F4A261" />
+  <circle cx="200" cy="180" r="16" fill="#FFF2D4" />
+
+  <!-- Little Golden Sprout reaching upwards out of the nest -->
+  <path d="M 200 154 C 196 130, 204 115, 200 95" stroke="#2D5A43" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <ellipse cx="200" cy="90" rx="6" ry="10" fill="#E6A64C" />
+  <circle cx="200" cy="72" r="4.5" fill="#D49B42" />
+</svg>

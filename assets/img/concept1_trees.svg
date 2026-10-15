@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <!-- Concept 1: "İki Kök, Tek Gökyüzü" (Two Trees Intertwined) -->
+  <!-- "Ben sen değilim, sen ben değilsin; ama gölgemiz ve göğümüz bir." -->
+  <defs>
+    <linearGradient id="treeLeftGrad" x1="0%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#2D5A43" />
+      <stop offset="60%" stop-color="#408060" />
+      <stop offset="100%" stop-color="#6BB087" />
+    </linearGradient>
+
+    <linearGradient id="treeRightGrad" x1="100%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#B26354" />
+      <stop offset="60%" stop-color="#C97B6D" />
+      <stop offset="100%" stop-color="#EAA69A" />
+    </linearGradient>
+
+    <linearGradient id="canopyGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6A64C" />
+      <stop offset="100%" stop-color="#F2C779" />
+    </linearGradient>
+
+    <radialGradient id="canopyGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FDFBF7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FAF5EE" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Soft Aura -->
+  <circle cx="200" cy="200" r="170" fill="url(#canopyGlow)" />
+  <circle cx="200" cy="200" r="185" stroke="#C97B6D" stroke-width="1" stroke-dasharray="4 8" opacity="0.25" />
+  <circle cx="200" cy="200" r="180" stroke="#408060" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.3" />
+
+  <!-- 1. SOIL / COMMON GROUND (Ortak Zemin / Çatı) -->
+  <path d="M 90 320 Q 200 345 310 320 Q 200 330 90 320 Z" fill="#8C7355" opacity="0.4" />
+
+  <!-- 2. LEFT TREE (1. Birey / Kardeş / Yol Arkadaşı) -->
+  <!-- Roots & Trunk arching towards the center -->
+  <path d="M 120 320
+           C 130 280, 140 230, 155 190
+           C 170 150, 190 120, 200 95
+           C 185 110, 150 135, 130 160
+           C 115 180, 125 210, 120 250
+           C 118 275, 105 305, 100 320
+           C 110 325, 115 320, 120 320 Z"
+        fill="url(#treeLeftGrad)" />
+
+  <!-- Left Tree Branches reaching out -->
+  <path d="M 155 190 C 140 160, 115 145, 95 140 C 115 135, 145 145, 160 165 Z" fill="#408060" opacity="0.85" />
+  <path d="M 175 140 C 150 110, 130 90, 115 75 C 135 80, 165 105, 180 125 Z" fill="#6BB087" opacity="0.9" />
+
+  <!-- 3. RIGHT TREE (2. Birey / Kardeş / Yol Arkadaşı) -->
+  <!-- Roots & Trunk arching towards the center and intertwining -->
+  <path d="M 280 320
+           C 270 280, 260 230, 245 190
+           C 230 150, 210 120, 200 95
+           C 215 110, 250 135, 270 160
+           C 285 180, 275 210, 280 250
+           C 282 275, 295 305, 300 320
+           C 290 325, 285 320, 280 320 Z"
+        fill="url(#treeRightGrad)" />
+
+  <!-- Right Tree Branches reaching out -->
+  <path d="M 245 190 C 260 160, 285 145, 305 140 C 285 135, 255 145, 240 165 Z" fill="#C97B6D" opacity="0.85" />
+  <path d="M 225 140 C 250 110, 270 90, 285 75 C 265 80, 235 105, 220 125 Z" fill="#EAA69A" opacity="0.9" />
+
+  <!-- 4. INTERTWINING CANOPY (Ortak Gökyüzü / Taç Yapraklar) -->
+  <!-- Where the two crowns meet at the crest, forming a circle of life -->
+  <ellipse cx="200" cy="75" rx="16" ry="24" fill="url(#canopyGold)" />
+  <circle cx="200" cy="45" r="9" fill="#E6A64C" />
+
+  <path d="M 180 95 C 190 70, 210 70, 220 95 C 210 110, 190 110, 180 95 Z" fill="#52B788" opacity="0.9" />
+  <path d="M 155 85 C 170 65, 195 70, 190 90 C 175 95, 160 95, 155 85 Z" fill="#74C69D" opacity="0.85" />
+  <path d="M 245 85 C 230 65, 205 70, 210 90 C 225 95, 240 95, 245 85 Z" fill="#F4A261" opacity="0.85" />
+
+  <!-- Floating Spores / Connection Sparks (İlham ve İletişim Tohumları) -->
+  <circle cx="160" cy="115" r="4.5" fill="#E6A64C" />
+  <circle cx="240" cy="115" r="4.5" fill="#E6A64C" />
+  <circle cx="140" cy="150" r="3.5" fill="#52B788" />
+  <circle cx="260" cy="150" r="3.5" fill="#E76F51" />
+  <circle cx="200" cy="160" r="5" fill="#2A9D8F" opacity="0.8" />
+</svg>

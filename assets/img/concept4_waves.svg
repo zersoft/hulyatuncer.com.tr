@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <!-- Concept 4: "Harmonik Dalgalar & Dingin Liman" (The Dual Zen Streams & Harbor) -->
+  <!-- "Fırtınaları dindiren, iki farklı akışın buluştuğu sakin bir liman." -->
+  <defs>
+    <!-- Wave 1: Sea & Forest Green Gradient -->
+    <linearGradient id="waveSageGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1B4332" />
+      <stop offset="50%" stop-color="#2D6A4F" />
+      <stop offset="100%" stop-color="#52B788" />
+    </linearGradient>
+
+    <!-- Wave 2: Coral Ochre Gradient -->
+    <linearGradient id="waveCoralGrad" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B26354" />
+      <stop offset="50%" stop-color="#E07A5F" />
+      <stop offset="100%" stop-color="#F4A261" />
+    </linearGradient>
+
+    <!-- Harbor Pearl Gradient -->
+    <radialGradient id="harborPearl" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#FDFBF7" />
+      <stop offset="100%" stop-color="#E9DCC9" />
+    </radialGradient>
+  </defs>
+
+  <circle cx="200" cy="200" r="170" fill="#FAF8F5" />
+  <circle cx="200" cy="200" r="182" stroke="#2D6A4F" stroke-width="1.2" stroke-dasharray="3 6" opacity="0.3" />
+
+  <!-- 1. LEFT WAVE (Akıntı 1: Kendi Ritim ve Dalga Boyu) -->
+  <path d="M 80 230
+           C 60 140, 140 70, 230 75
+           C 255 77, 275 88, 285 105
+           C 260 100, 230 102, 195 120
+           C 145 145, 115 190, 120 240
+           C 125 290, 175 325, 230 320
+           C 150 335, 95 300, 80 230 Z"
+        fill="url(#waveSageGrad)" />
+
+  <!-- 2. RIGHT WAVE (Akıntı 2: Karşılaşma ve Denge) -->
+  <path d="M 320 170
+           C 340 260, 260 330, 170 325
+           C 145 323, 125 312, 115 295
+           C 140 300, 170 298, 205 280
+           C 255 255, 285 210, 280 160
+           C 275 110, 225 75, 170 80
+           C 250 65, 305 100, 320 170 Z"
+        fill="url(#waveCoralGrad)"
+        opacity="0.92" />
+
+  <!-- 3. CENTRAL TRANQUIL HARBOR (Dingin Liman / Güvenli Merkez) -->
+  <circle cx="200" cy="200" r="28" fill="url(#harborPearl)" stroke="#E6A64C" stroke-width="2" />
+  <circle cx="200" cy="200" r="10" fill="#2D6A4F" />
+
+  <!-- Radiating ripples of peace -->
+  <circle cx="200" cy="200" r="48" stroke="#E6A64C" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.5" />
+
+  <!-- Sprout of hope at the calm center -->
+  <path d="M 200 172 C 196 150, 204 135, 200 120" stroke="#2D6A4F" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  <ellipse cx="200" cy="115" rx="5" ry="9" fill="#52B788" />
+  <circle cx="200" cy="98" r="4" fill="#F4A261" />
+</svg>
