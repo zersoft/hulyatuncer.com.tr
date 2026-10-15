@@ -1,42 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none">
-  <!-- Hülya Tuncer – Monogram H Emblem (1:1 Icon) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110" width="100%" height="100%" fill="none">
+  <!-- Hülya Tuncer – Hayatın Dokusu Emblem (1:1 Icon) -->
   <defs>
-    <linearGradient id="emblemPillar" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2D3A34" />
-      <stop offset="100%" stop-color="#1B2621" />
+    <linearGradient id="emblemLoomGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B6E57" />
+      <stop offset="100%" stop-color="#2D4636" />
     </linearGradient>
-    <linearGradient id="emblemWave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#C59B54" />
-      <stop offset="50%" stop-color="#DFB76C" />
-      <stop offset="100%" stop-color="#C59B54" />
+    <linearGradient id="emblemLoomGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D79753" />
+      <stop offset="100%" stop-color="#9C5C26" />
     </linearGradient>
+    <linearGradient id="emblemSprout" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#6F9473" />
+      <stop offset="100%" stop-color="#A5B88D" />
+    </linearGradient>
+    <radialGradient id="emblemPearl" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF3D1" />
+      <stop offset="100%" stop-color="#B87D2B" />
+    </radialGradient>
   </defs>
 
-  <g transform="translate(4, 4)">
-    <!-- Left Pillar -->
-    <path d="M 16 16
-             C 16 8, 32 8, 32 8
-             L 32 84
-             C 32 84, 16 84, 16 76
-             Z"
-          fill="url(#emblemPillar)" />
+  <g transform="translate(0, 0)">
+    <!-- Top Golden Sun Pearl -->
+    <circle cx="55" cy="11" r="5.5" fill="url(#emblemPearl)" />
 
-    <!-- Right Pillar -->
-    <path d="M 60 8
-             C 60 8, 76 8, 76 16
-             L 76 76
-             C 76 84, 60 84, 60 84
-             Z"
-          fill="url(#emblemPillar)" />
+    <!-- Interwoven Braided Ring -->
+    <path d="M 42 16 C 52 13, 64 15, 74 21 C 68 25, 62 26, 42 22 Z" fill="url(#emblemLoomGold)" />
+    <path d="M 70 19 C 84 28, 93 42, 92 56 C 87 53, 80 48, 72 38 C 71 31, 71 24, 70 19 Z" fill="url(#emblemLoomGreen)" />
+    <path d="M 92 50 C 95 65, 88 80, 78 89 C 75 83, 73 75, 78 63 C 83 55, 87 52, 92 50 Z" fill="url(#emblemLoomGold)" />
+    <path d="M 80 84 C 68 96, 52 98, 38 94 C 42 88, 48 85, 63 87 C 71 88, 76 86, 80 84 Z" fill="url(#emblemLoomGreen)" />
+    <path d="M 42 96 C 26 92, 17 78, 18 63 C 23 66, 30 71, 38 81 C 39 88, 40 93, 42 96 Z" fill="url(#emblemLoomGold)" />
+    <path d="M 18 68 C 15 52, 22 37, 32 27 C 35 33, 37 41, 32 54 C 27 61, 23 65, 18 68 Z" fill="url(#emblemLoomGreen)" />
+    <path d="M 30 25 C 38 18, 48 15, 58 16 C 54 21, 48 24, 38 23 Z" fill="url(#emblemLoomGreen)" opacity="0.9" />
+    <path d="M 28 85 C 38 93, 50 96, 62 94 C 58 89, 52 86, 42 87 Z" fill="url(#emblemLoomGold)" opacity="0.9" />
 
-    <!-- Dialogue Bridge Wave -->
-    <path d="M 16 48
-             C 30 40, 42 38, 52 44
-             C 62 50, 68 54, 76 44
-             L 76 54
-             C 68 64, 62 60, 52 54
-             C 42 48, 30 50, 16 58
-             Z"
-          fill="url(#emblemWave)" />
+    <!-- Center Living Sprout -->
+    <path d="M 52 82 C 54 68, 55 58, 55 46" stroke="#4B6E57" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M 55 46 C 51 35, 53 26, 55 20 C 57 26, 59 35, 55 46 Z" fill="url(#emblemSprout)" />
+    <path d="M 54 52 C 45 46, 39 37, 41 31 C 49 33, 53 43, 54 52 Z" fill="#608369" />
+    <path d="M 55 50 C 65 44, 71 35, 69 29 C 61 31, 57 41, 55 50 Z" fill="#608369" />
   </g>
 </svg>

@@ -1,86 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%" fill="none">
-  <!-- Hülya Tuncer – Scandinavian Monogram "H" (The Bridge of Connection) -->
-  <!-- Two Autonomous Lives Connected by a Wave of Dialogue -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 130" width="100%" height="100%" fill="none">
+  <!-- Hülya Tuncer – "Hayatın Dokusu" (The Living Loom) Master Brand Identity -->
+  <!-- Two interwoven ribbons (Forest Green & Terracotta Gold) + Central Sprout + Golden Pearl -->
   <defs>
-    <!-- Soft Charcoal Tone for Pillars -->
-    <linearGradient id="monoPillar" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2D3A34" />
-      <stop offset="100%" stop-color="#1B2621" />
+    <!-- Forest Moss Ribbon Gradient -->
+    <linearGradient id="loomGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B6E57" />
+      <stop offset="50%" stop-color="#3A5844" />
+      <stop offset="100%" stop-color="#2D4636" />
     </linearGradient>
 
-    <!-- Warm Champagne Gold for Dialogue Bridge -->
-    <linearGradient id="waveGold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#C59B54" />
-      <stop offset="50%" stop-color="#DFB76C" />
-      <stop offset="100%" stop-color="#C59B54" />
+    <!-- Warm Terracotta Ochre Ribbon Gradient -->
+    <linearGradient id="loomGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D79753" />
+      <stop offset="50%" stop-color="#BC7B3B" />
+      <stop offset="100%" stop-color="#9C5C26" />
     </linearGradient>
 
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1B2621" flood-opacity="0.08" />
+    <!-- Sprout Leaves Gradient -->
+    <linearGradient id="sproutGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#6F9473" />
+      <stop offset="100%" stop-color="#A5B88D" />
+    </linearGradient>
+
+    <!-- Golden Sun Pearl -->
+    <radialGradient id="pearlGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF3D1" />
+      <stop offset="40%" stop-color="#E2B163" />
+      <stop offset="100%" stop-color="#B87D2B" />
+    </radialGradient>
+
+    <filter id="gentleShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1B2B20" flood-opacity="0.1" />
     </filter>
   </defs>
 
-  <!-- ICON EMBLEM: Architectural "H" with Sinusoidal Dialogue Wave -->
-  <g transform="translate(18, 14)" filter="url(#softShadow)">
+  <!-- EMBLEM ICON (Left) -->
+  <g transform="translate(18, 10)" filter="url(#gentleShadow)">
     
-    <!-- Left Pillar (Individual / Brother / Partner) -->
-    <!-- Curved outer top shoulder, flat inner edge -->
-    <path d="M 12 14
-             C 12 6, 26 6, 26 6
-             L 26 86
-             C 26 86, 12 86, 12 78
-             Z"
-          fill="url(#monoPillar)" />
+    <!-- Top Golden Sun Pearl -->
+    <circle cx="55" cy="11" r="5.5" fill="url(#pearlGrad)" />
 
-    <!-- Right Pillar (Individual / Sister / Partner) -->
-    <path d="M 66 6
-             C 66 6, 80 6, 80 14
-             L 80 78
-             C 80 86, 66 86, 66 86
-             Z"
-          fill="url(#monoPillar)" />
+    <!-- Interwoven Braided Ring (The Woven Loom) -->
+    <!-- Segment 1: Gold Top Arc -->
+    <path d="M 42 16 C 52 13, 64 15, 74 21 C 68 25, 62 26, 42 22 Z" fill="url(#loomGold)" />
+    
+    <!-- Segment 2: Green Upper-Right Sweep -->
+    <path d="M 70 19 C 84 28, 93 42, 92 56 C 87 53, 80 48, 72 38 C 71 31, 71 24, 70 19 Z" fill="url(#loomGreen)" />
 
-    <!-- Continuous Fluid Bridge Wave (The Dialogue / Shared Life) -->
-    <path d="M 12 48
-             C 26 40, 36 38, 46 44
-             C 56 50, 66 54, 80 44
-             L 80 54
-             C 66 64, 56 60, 46 54
-             C 36 48, 26 50, 12 58
-             Z"
-          fill="url(#waveGold)" />
+    <!-- Segment 3: Gold Right Curve -->
+    <path d="M 92 50 C 95 65, 88 80, 78 89 C 75 83, 73 75, 78 63 C 83 55, 87 52, 92 50 Z" fill="url(#loomGold)" />
+
+    <!-- Segment 4: Green Bottom-Right Sweep -->
+    <path d="M 80 84 C 68 96, 52 98, 38 94 C 42 88, 48 85, 63 87 C 71 88, 76 86, 80 84 Z" fill="url(#loomGreen)" />
+
+    <!-- Segment 5: Gold Lower-Left Sweep -->
+    <path d="M 42 96 C 26 92, 17 78, 18 63 C 23 66, 30 71, 38 81 C 39 88, 40 93, 42 96 Z" fill="url(#loomGold)" />
+
+    <!-- Segment 6: Green Upper-Left Sweep -->
+    <path d="M 18 68 C 15 52, 22 37, 32 27 C 35 33, 37 41, 32 54 C 27 61, 23 65, 18 68 Z" fill="url(#loomGreen)" />
+
+    <!-- Overlapping Braids Continuity -->
+    <path d="M 30 25 C 38 18, 48 15, 58 16 C 54 21, 48 24, 38 23 Z" fill="url(#loomGreen)" opacity="0.9" />
+    <path d="M 28 85 C 38 93, 50 96, 62 94 C 58 89, 52 86, 42 87 Z" fill="url(#loomGold)" opacity="0.9" />
+
+    <!-- Central Living Sprout (Canlı Yaşam Filizi) -->
+    <!-- Delicate curved stem -->
+    <path d="M 52 82 C 54 68, 55 58, 55 46" stroke="#4B6E57" stroke-width="2" stroke-linecap="round" fill="none" />
+
+    <!-- Center Leaf (Golden-Green) -->
+    <path d="M 55 46 C 51 35, 53 26, 55 20 C 57 26, 59 35, 55 46 Z" fill="url(#sproutGrad)" />
+
+    <!-- Left Leaf -->
+    <path d="M 54 52 C 45 46, 39 37, 41 31 C 49 33, 53 43, 54 52 Z" fill="#608369" />
+
+    <!-- Right Leaf -->
+    <path d="M 55 50 C 65 44, 71 35, 69 29 C 61 31, 57 41, 55 50 Z" fill="#608369" />
+
   </g>
 
-  <!-- TYPOGRAPHY: Swiss / Scandinavian Precision -->
-  <g transform="translate(126, 22)">
-    <!-- Brand Name -->
-    <text x="0" y="38" 
-          font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
-          font-size="32" 
-          font-weight="800" 
-          fill="#1B2621" 
+  <!-- TYPOGRAPHY: Humanist Serif Standard matching the mockup -->
+  <g transform="translate(136, 22)">
+    <!-- Hülya Tuncer -->
+    <text x="0" y="44" 
+          font-family="'Playfair Display', 'Times New Roman', Georgia, serif" 
+          font-size="40" 
+          font-weight="700" 
+          fill="#2C3E33" 
           letter-spacing="0.5">
-      HÜLYA TUNCER
+      Hülya Tuncer
     </text>
 
-    <!-- Subtitle: Universal Relationships & Family -->
-    <text x="2" y="62" 
+    <!-- Subtitle: AİLE DANIŞMANLIĞI & ÇOCUK GELİŞİMİ -->
+    <text x="2" y="72" 
           font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
-          font-size="11.5" 
+          font-size="12" 
           font-weight="600" 
-          fill="#A87A38" 
+          fill="#A46B36" 
           letter-spacing="2.8">
-      İLİŞKİ &amp; AİLE DANIŞMANLIĞI
+      AİLE DANIŞMANLIĞI &amp; ÇOCUK GELİŞİMİ
     </text>
 
-    <!-- Focus Areas -->
-    <text x="2" y="80" 
+    <!-- Tagline -->
+    <text x="2" y="90" 
           font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
-          font-size="10.5" 
+          font-size="11" 
           font-weight="400" 
-          fill="#6B7280" 
-          letter-spacing="0.4">
-      Çocuk Gelişimi • Doğada Aile • Gluco Destek
+          fill="#5E6B62" 
+          letter-spacing="0.5">
+      Kendi Kökünde Özgür, Aynı Gökyüzünde Bir
     </text>
   </g>
 </svg>

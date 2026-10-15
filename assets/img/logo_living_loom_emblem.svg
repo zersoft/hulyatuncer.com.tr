@@ -1,67 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%" fill="none">
-  <!-- Hülya Tuncer – "Hayatın Dokusu / The Living Loom" 1:1 Emblem -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110" width="100%" height="100%" fill="none">
+  <!-- Hülya Tuncer – Hayatın Dokusu Emblem (1:1 Icon) -->
   <defs>
-    <!-- Sage to Deep Forest Ribbon Gradient -->
-    <linearGradient id="emblemLoomSage" x1="0%" y1="100%" x2="50%" y2="0%">
-      <stop offset="0%" stop-color="#1B4332" />
-      <stop offset="50%" stop-color="#2D6A4F" />
-      <stop offset="100%" stop-color="#52B788" />
+    <linearGradient id="emblemLoomGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B6E57" />
+      <stop offset="100%" stop-color="#2D4636" />
     </linearGradient>
-
-    <!-- Warm Terracotta to Brushed Gold Ribbon Gradient -->
-    <linearGradient id="emblemLoomTerracotta" x1="100%" y1="100%" x2="50%" y2="0%">
-      <stop offset="0%" stop-color="#9E4738" />
-      <stop offset="50%" stop-color="#C27D72" />
-      <stop offset="100%" stop-color="#E9B368" />
+    <linearGradient id="emblemLoomGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D79753" />
+      <stop offset="100%" stop-color="#9C5C26" />
     </linearGradient>
-
-    <!-- Center Living Sprout Gradients -->
-    <linearGradient id="emblemSproutGold" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#D49B42" />
-      <stop offset="100%" stop-color="#FDE68A" />
+    <linearGradient id="emblemSprout" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#6F9473" />
+      <stop offset="100%" stop-color="#A5B88D" />
     </linearGradient>
-
-    <radialGradient id="emblemSunPearl" cx="40%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="50%" stop-color="#F4A261" />
-      <stop offset="100%" stop-color="#D49B42" />
+    <radialGradient id="emblemPearl" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF3D1" />
+      <stop offset="100%" stop-color="#B87D2B" />
     </radialGradient>
-
-    <filter id="emblemLoomShadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#1B4332" flood-opacity="0.14" />
-    </filter>
   </defs>
 
-  <g filter="url(#emblemLoomShadow)">
-    <circle cx="100" cy="100" r="92" stroke="#2D6A4F" stroke-width="1.2" stroke-dasharray="3 5" opacity="0.3" />
-    <circle cx="100" cy="100" r="96" stroke="#C27D72" stroke-width="0.8" stroke-dasharray="5 7" opacity="0.25" />
+  <g transform="translate(0, 0)">
+    <!-- Top Golden Sun Pearl -->
+    <circle cx="55" cy="11" r="5.5" fill="url(#emblemPearl)" />
 
-    <!-- Left Ribbon -->
-    <path d="M 96 172
-             C 52 165, 24 125, 32 80
-             C 38 46, 68 28, 98 44
-             C 86 52, 60 70, 58 100
-             C 56 128, 76 150, 96 156
-             C 98 162, 97 168, 96 172 Z"
-          fill="url(#emblemLoomSage)" />
+    <!-- Interwoven Braided Ring -->
+    <path d="M 42 16 C 52 13, 64 15, 74 21 C 68 25, 62 26, 42 22 Z" fill="url(#emblemLoomGold)" />
+    <path d="M 70 19 C 84 28, 93 42, 92 56 C 87 53, 80 48, 72 38 C 71 31, 71 24, 70 19 Z" fill="url(#emblemLoomGreen)" />
+    <path d="M 92 50 C 95 65, 88 80, 78 89 C 75 83, 73 75, 78 63 C 83 55, 87 52, 92 50 Z" fill="url(#emblemLoomGold)" />
+    <path d="M 80 84 C 68 96, 52 98, 38 94 C 42 88, 48 85, 63 87 C 71 88, 76 86, 80 84 Z" fill="url(#emblemLoomGreen)" />
+    <path d="M 42 96 C 26 92, 17 78, 18 63 C 23 66, 30 71, 38 81 C 39 88, 40 93, 42 96 Z" fill="url(#emblemLoomGold)" />
+    <path d="M 18 68 C 15 52, 22 37, 32 27 C 35 33, 37 41, 32 54 C 27 61, 23 65, 18 68 Z" fill="url(#emblemLoomGreen)" />
+    <path d="M 30 25 C 38 18, 48 15, 58 16 C 54 21, 48 24, 38 23 Z" fill="url(#emblemLoomGreen)" opacity="0.9" />
+    <path d="M 28 85 C 38 93, 50 96, 62 94 C 58 89, 52 86, 42 87 Z" fill="url(#emblemLoomGold)" opacity="0.9" />
 
-    <!-- Right Ribbon -->
-    <path d="M 104 172
-             C 148 165, 176 125, 168 80
-             C 162 46, 132 28, 102 44
-             C 114 52, 140 70, 142 100
-             C 144 128, 124 150, 104 156
-             C 102 162, 103 168, 104 172 Z"
-          fill="url(#emblemLoomTerracotta)" />
-
-    <!-- Center Sprout -->
-    <path d="M 100 155 C 98 135, 102 115, 100 92" stroke="#2D6A4F" stroke-width="2.5" stroke-linecap="round" fill="none" />
-    <path d="M 100 92 C 94 75, 96 60, 100 48 C 104 60, 106 75, 100 92 Z" fill="url(#emblemSproutGold)" />
-    <path d="M 100 105 C 84 94, 76 76, 78 62 C 92 68, 98 86, 100 105 Z" fill="#52B788" />
-    <path d="M 100 105 C 116 94, 124 76, 122 62 C 108 68, 102 86, 100 105 Z" fill="#E07A5F" />
-
-    <!-- Sun Pearl -->
-    <circle cx="100" cy="36" r="6.5" fill="url(#emblemSunPearl)" />
-    <path d="M 75 180 Q 100 188 125 180" stroke="#8C7355" stroke-width="1.8" stroke-linecap="round" opacity="0.45" />
+    <!-- Center Living Sprout -->
+    <path d="M 52 82 C 54 68, 55 58, 55 46" stroke="#4B6E57" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M 55 46 C 51 35, 53 26, 55 20 C 57 26, 59 35, 55 46 Z" fill="url(#emblemSprout)" />
+    <path d="M 54 52 C 45 46, 39 37, 41 31 C 49 33, 53 43, 54 52 Z" fill="#608369" />
+    <path d="M 55 50 C 65 44, 71 35, 69 29 C 61 31, 57 41, 55 50 Z" fill="#608369" />
   </g>
 </svg>

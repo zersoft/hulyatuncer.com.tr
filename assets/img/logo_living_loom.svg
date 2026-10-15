@@ -1,102 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 140" width="100%" height="100%" fill="none">
-  <!-- Hülya Tuncer – "Hayatın Dokusu / The Living Loom" Master Logo -->
-  <!-- "Kendi Kökünde Özgür, Aynı Gökyüzünde Bir" -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 130" width="100%" height="100%" fill="none">
+  <!-- Hülya Tuncer – "Hayatın Dokusu" (The Living Loom) Master Brand Identity -->
+  <!-- Two interwoven ribbons (Forest Green & Terracotta Gold) + Central Sprout + Golden Pearl -->
   <defs>
-    <!-- Sage to Deep Forest Ribbon Gradient -->
-    <linearGradient id="loomSage" x1="0%" y1="100%" x2="50%" y2="0%">
-      <stop offset="0%" stop-color="#1B4332" />
-      <stop offset="50%" stop-color="#2D6A4F" />
-      <stop offset="100%" stop-color="#52B788" />
+    <!-- Forest Moss Ribbon Gradient -->
+    <linearGradient id="loomGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4B6E57" />
+      <stop offset="50%" stop-color="#3A5844" />
+      <stop offset="100%" stop-color="#2D4636" />
     </linearGradient>
 
-    <!-- Warm Terracotta to Brushed Gold Ribbon Gradient -->
-    <linearGradient id="loomTerracotta" x1="100%" y1="100%" x2="50%" y2="0%">
-      <stop offset="0%" stop-color="#9E4738" />
-      <stop offset="50%" stop-color="#C27D72" />
-      <stop offset="100%" stop-color="#E9B368" />
+    <!-- Warm Terracotta Ochre Ribbon Gradient -->
+    <linearGradient id="loomGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D79753" />
+      <stop offset="50%" stop-color="#BC7B3B" />
+      <stop offset="100%" stop-color="#9C5C26" />
     </linearGradient>
 
-    <!-- Center Living Sprout Gradients -->
-    <linearGradient id="sproutGoldLoom" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#D49B42" />
-      <stop offset="100%" stop-color="#FDE68A" />
+    <!-- Sprout Leaves Gradient -->
+    <linearGradient id="sproutGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#6F9473" />
+      <stop offset="100%" stop-color="#A5B88D" />
     </linearGradient>
 
-    <radialGradient id="sunPearl" cx="40%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="50%" stop-color="#F4A261" />
-      <stop offset="100%" stop-color="#D49B42" />
+    <!-- Golden Sun Pearl -->
+    <radialGradient id="pearlGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF3D1" />
+      <stop offset="40%" stop-color="#E2B163" />
+      <stop offset="100%" stop-color="#B87D2B" />
     </radialGradient>
 
-    <!-- Ambient Shadow -->
-    <filter id="loomShadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1B4332" flood-opacity="0.12" />
+    <filter id="gentleShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1B2B20" flood-opacity="0.1" />
     </filter>
   </defs>
 
-  <!-- EMBLEM LOCKUP (Left, Scaled 120x120 at x=10, y=10) -->
-  <g transform="translate(14, 10) scale(0.6)" filter="url(#loomShadow)">
+  <!-- EMBLEM ICON (Left) -->
+  <g transform="translate(18, 10)" filter="url(#gentleShadow)">
     
-    <!-- Outer Harmony Reference Rings (Sacred Space) -->
-    <circle cx="100" cy="100" r="92" stroke="#2D6A4F" stroke-width="1.2" stroke-dasharray="3 5" opacity="0.3" />
-    <circle cx="100" cy="100" r="96" stroke="#C27D72" stroke-width="0.8" stroke-dasharray="5 7" opacity="0.25" />
+    <!-- Top Golden Sun Pearl -->
+    <circle cx="55" cy="11" r="5.5" fill="url(#pearlGrad)" />
 
-    <!-- 1. LEFT ORGANIC RIBBON (1. Can / Kökler / Yaşamın Bir Kanadı) -->
-    <!-- Ascends from base, sweeps outward, then curves into shelter -->
-    <path d="M 96 172
-             C 52 165, 24 125, 32 80
-             C 38 46, 68 28, 98 44
-             C 86 52, 60 70, 58 100
-             C 56 128, 76 150, 96 156
-             C 98 162, 97 168, 96 172 Z"
-          fill="url(#loomSage)" />
+    <!-- Interwoven Braided Ring (The Woven Loom) -->
+    <!-- Segment 1: Gold Top Arc -->
+    <path d="M 42 16 C 52 13, 64 15, 74 21 C 68 25, 62 26, 42 22 Z" fill="url(#loomGold)" />
+    
+    <!-- Segment 2: Green Upper-Right Sweep -->
+    <path d="M 70 19 C 84 28, 93 42, 92 56 C 87 53, 80 48, 72 38 C 71 31, 71 24, 70 19 Z" fill="url(#loomGreen)" />
 
-    <!-- 2. RIGHT ORGANIC RIBBON (2. Can / Gökyüzü / Yaşamın Diğer Kanadı) -->
-    <!-- Intertwines gracefully, maintaining open breathing space -->
-    <path d="M 104 172
-             C 148 165, 176 125, 168 80
-             C 162 46, 132 28, 102 44
-             C 114 52, 140 70, 142 100
-             C 144 128, 124 150, 104 156
-             C 102 162, 103 168, 104 172 Z"
-          fill="url(#loomTerracotta)" />
+    <!-- Segment 3: Gold Right Curve -->
+    <path d="M 92 50 C 95 65, 88 80, 78 89 C 75 83, 73 75, 78 63 C 83 55, 87 52, 92 50 Z" fill="url(#loomGold)" />
 
-    <!-- 3. CENTRAL SHARED SANCTUARY (Nefes & Ortak Yaşam Alanı) -->
-    <!-- Open center holding the 3-leaf living sprout -->
-    <!-- Stem rising from the cradle -->
-    <path d="M 100 155 C 98 135, 102 115, 100 92" stroke="#2D6A4F" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <!-- Segment 4: Green Bottom-Right Sweep -->
+    <path d="M 80 84 C 68 96, 52 98, 38 94 C 42 88, 48 85, 63 87 C 71 88, 76 86, 80 84 Z" fill="url(#loomGreen)" />
 
-    <!-- Center Living Leaf (Duygu & Bağ) -->
-    <path d="M 100 92 C 94 75, 96 60, 100 48 C 104 60, 106 75, 100 92 Z" fill="url(#sproutGoldLoom)" />
+    <!-- Segment 5: Gold Lower-Left Sweep -->
+    <path d="M 42 96 C 26 92, 17 78, 18 63 C 23 66, 30 71, 38 81 C 39 88, 40 93, 42 96 Z" fill="url(#loomGold)" />
 
-    <!-- Left Living Leaf (Zihin & Kök) -->
-    <path d="M 100 105 C 84 94, 76 76, 78 62 C 92 68, 98 86, 100 105 Z" fill="#52B788" />
+    <!-- Segment 6: Green Upper-Left Sweep -->
+    <path d="M 18 68 C 15 52, 22 37, 32 27 C 35 33, 37 41, 32 54 C 27 61, 23 65, 18 68 Z" fill="url(#loomGreen)" />
 
-    <!-- Right Living Leaf (Umut & Canlılık) -->
-    <path d="M 100 105 C 116 94, 124 76, 122 62 C 108 68, 102 86, 100 105 Z" fill="#E07A5F" />
+    <!-- Overlapping Braids Continuity -->
+    <path d="M 30 25 C 38 18, 48 15, 58 16 C 54 21, 48 24, 38 23 Z" fill="url(#loomGreen)" opacity="0.9" />
+    <path d="M 28 85 C 38 93, 50 96, 62 94 C 58 89, 52 86, 42 87 Z" fill="url(#loomGold)" opacity="0.9" />
 
-    <!-- 4. FLOATING SUN PEARL (Bilinç & Yaşam Işığı) -->
-    <circle cx="100" cy="36" r="6.5" fill="url(#sunPearl)" />
+    <!-- Central Living Sprout (Canlı Yaşam Filizi) -->
+    <!-- Delicate curved stem -->
+    <path d="M 52 82 C 54 68, 55 58, 55 46" stroke="#4B6E57" stroke-width="2" stroke-linecap="round" fill="none" />
 
-    <!-- Base Harmony Arc -->
-    <path d="M 75 180 Q 100 188 125 180" stroke="#8C7355" stroke-width="1.8" stroke-linecap="round" opacity="0.45" />
+    <!-- Center Leaf (Golden-Green) -->
+    <path d="M 55 46 C 51 35, 53 26, 55 20 C 57 26, 59 35, 55 46 Z" fill="url(#sproutGrad)" />
+
+    <!-- Left Leaf -->
+    <path d="M 54 52 C 45 46, 39 37, 41 31 C 49 33, 53 43, 54 52 Z" fill="#608369" />
+
+    <!-- Right Leaf -->
+    <path d="M 55 50 C 65 44, 71 35, 69 29 C 61 31, 57 41, 55 50 Z" fill="#608369" />
 
   </g>
 
-  <!-- TYPOGRAPHY SECTION -->
-  <g transform="translate(150, 24)">
-    <!-- Main Name -->
-    <text x="0" y="44" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" fill="#153329" letter-spacing="-0.6">
+  <!-- TYPOGRAPHY: Humanist Serif Standard matching the mockup -->
+  <g transform="translate(136, 22)">
+    <!-- Hülya Tuncer -->
+    <text x="0" y="44" 
+          font-family="'Playfair Display', 'Times New Roman', Georgia, serif" 
+          font-size="40" 
+          font-weight="700" 
+          fill="#2C3E33" 
+          letter-spacing="0.5">
       Hülya Tuncer
     </text>
 
-    <!-- Subtitle (Title) -->
-    <text x="2" y="70" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#C27D72" letter-spacing="1.5">
-      AİLE DANIŞMANI &amp; ÇOCUK GELİŞİMCİSİ
+    <!-- Subtitle: AİLE DANIŞMANLIĞI & ÇOCUK GELİŞİMİ -->
+    <text x="2" y="72" 
+          font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+          font-size="12" 
+          font-weight="600" 
+          fill="#A46B36" 
+          letter-spacing="2.8">
+      AİLE DANIŞMANLIĞI &amp; ÇOCUK GELİŞİMİ
     </text>
 
-    <!-- Manifesto Tagline -->
-    <text x="2" y="90" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="500" fill="#4B5563" letter-spacing="0.3">
+    <!-- Tagline -->
+    <text x="2" y="90" 
+          font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+          font-size="11" 
+          font-weight="400" 
+          fill="#5E6B62" 
+          letter-spacing="0.5">
       Kendi Kökünde Özgür, Aynı Gökyüzünde Bir
     </text>
   </g>
