@@ -113,7 +113,7 @@
         <!-- Sağ Aksiyon Butonu -->
         <div class="hidden sm:flex items-center gap-3">
           <a href="#randevu" class="bg-brand-500 hover:bg-brand-600 text-white font-medium px-5 py-2.5 rounded-full shadow-sm hover:shadow-md transition text-sm flex items-center gap-2">
-            <span>Online Randevu Al</span>
+            <span>Ön Görüşme Talebi</span>
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
           </a>
         </div>
@@ -136,7 +136,7 @@
       <a href="#glucoecosystem" class="mobile-nav-link block py-2 text-blue-700 font-medium hover:text-gluco-500">Glucoecosystem T1D Desteği</a>
       <a href="#metodoloji" class="mobile-nav-link block py-2 text-stone-700 font-medium hover:text-brand-500">Terapötik Araçlar &amp; Metot</a>
       <a href="#sss" class="mobile-nav-link block py-2 text-stone-700 font-medium hover:text-brand-500">Sıkça Sorulan Sorular</a>
-      <a href="#randevu" class="mobile-nav-link block text-center bg-brand-500 text-white font-medium py-3 rounded-xl mt-4">Hemen Randevu Al</a>
+      <a href="#randevu" class="mobile-nav-link block text-center bg-brand-500 text-white font-medium py-3 rounded-xl mt-4">Online Ön Görüşme Talebi</a>
     </div>
   </header>
 
@@ -178,7 +178,7 @@
           <!-- Aksiyon Butonları -->
           <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
             <a href="#randevu" class="w-full sm:w-auto bg-brand-500 hover:bg-brand-600 text-white font-semibold px-8 py-3.5 rounded-full shadow-lg shadow-brand-500/25 transition text-center flex items-center justify-center gap-2">
-              <span>Online Seans Randevusu Al</span>
+              <span>Online Ön Görüşme Talebi Oluştur</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </a>
             <a href="https://wa.me/905055783259?text=Merhaba%20H%C3%BClya%20Han%C4%B1m%2C%20dan%C4%B1%C5%9Fmanl%C4%B1k%20hizmetleriniz%20ve%20seanslar%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="w-full sm:w-auto bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 font-semibold px-6 py-3.5 rounded-full transition text-center flex items-center justify-center gap-2">
@@ -959,83 +959,135 @@
     </div>
   </section>
 
-  <!-- 12. RANDEVU VE İLETİŞİM FORMU (WhatsApp Integrated) -->
+  <!-- 12. ONLINE ÖN GÖRÜŞME TALEP FORMU -->
   <section id="randevu" class="py-20 bg-stone-100/80">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="bg-white rounded-3xl shadow-xl border border-stone-200/80 p-6 sm:p-10">
         
         <div class="text-center max-w-xl mx-auto mb-8 space-y-2">
-          <span class="badge-sage text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">İletişim & Randevu</span>
+          <span class="badge-sage text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Online Ön Görüşme</span>
           <h2 class="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight">
-            İlk Adımı Birlikte Atalım
+            15 Dakikalık Ücretsiz Online Ön Görüşme
           </h2>
-          <p class="text-xs sm:text-sm text-stone-500">
-            Aşağıdaki kısa formu doldurduğunuzda doğrudan WhatsApp üzerinden ön görüşme ve randevu talebiniz Hülya Tuncer'e iletilecektir.
+          <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+            Danışmanlık sürecine başlamadan önce ihtiyacınızı dinlemek, sistemik yaklaşımımızın uygunluğunu birlikte değerlendirmek ve sorularınızı yanıtlamak amacıyla 15 dakikalık ücretsiz bir online tanışma görüşmesi gerçekleştiriyoruz.
           </p>
         </div>
 
-        <!-- Başarı Mesajı Bildirimi -->
-        <div id="formSuccess" class="hidden mb-6 p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs sm:text-sm flex items-center gap-2">
-          <svg class="w-5 h-5 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-          <span>Randevu bilgileriniz hazırlandı, WhatsApp uygulamasına yönlendiriliyorsunuz...</span>
+        <!-- Başarı / Onay Kartı (Form Gönderilince Gösterilir) -->
+        <div id="formSuccessCard" class="hidden text-center py-6 sm:py-8 space-y-5">
+          <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 mx-auto flex items-center justify-center">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+          </div>
+          
+          <div class="space-y-1.5">
+            <span class="inline-block px-3 py-1 rounded-full bg-stone-100 text-stone-700 text-xs font-medium border border-stone-200">
+              Referans No: <strong id="successRefId" class="text-stone-900">HT-2026-0000</strong>
+            </span>
+            <h3 class="text-xl sm:text-2xl font-bold text-stone-900 font-serif">Ön Görüşme Talebiniz Alındı</h3>
+            <p id="successClientMessage" class="text-xs sm:text-sm text-stone-600 max-w-lg mx-auto leading-relaxed">
+              Talebiniz tarafımıza ulaştı. Hülya Tuncer en kısa sürede (genellikle aynı gün içinde) belirttiğiniz telefon veya e-posta üzerinden sizinle iletişime geçerek online görüşme saatinizi netleştirecektir.
+            </p>
+          </div>
+
+          <!-- WhatsApp ile Hızlı İletişim İsteğe Bağlı Seçeneği -->
+          <div class="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
+            <a id="successWhatsAppBtn" href="#" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm px-6 py-3 rounded-xl shadow transition">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.838.814 2.796.814 3.183 0 5.769-2.588 5.77-5.768 0-3.18-2.587-5.768-5.77-5.768zm0 10.455c-.868 0-1.722-.234-2.47-.677l-.177-.105-1.837.482.491-1.792-.116-.185c-.486-.774-.742-1.674-.741-2.597.001-2.628 2.14-4.767 4.77-4.767 2.629 0 4.768 2.139 4.769 4.768 0 2.63-2.14 4.769-4.77 4.769z"/></svg>
+              <span>WhatsApp ile de Bilgi Ver (İsteğe Bağlı)</span>
+            </a>
+            <button id="resetFormBtn" type="button" class="w-full sm:w-auto px-5 py-3 rounded-xl border border-stone-300 text-stone-700 hover:bg-stone-50 font-medium text-xs sm:text-sm transition">
+              Yeni Talep Formu Aç
+            </button>
+          </div>
         </div>
 
+        <!-- Ön Görüşme Formu -->
         <form id="bookingForm" class="space-y-4">
+          
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            
             <div>
               <label for="fullName" class="block text-xs font-semibold text-stone-700 mb-1">Adınız Soyadınız *</label>
-              <input type="text" id="fullName" required placeholder="Örn: Ayşe Yılmaz" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+              <input type="text" id="fullName" name="fullName" required placeholder="Örn: Ayşe Yılmaz" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
             </div>
 
             <div>
               <label for="phone" class="block text-xs font-semibold text-stone-700 mb-1">Telefon Numaranız *</label>
-              <input type="tel" id="phone" required placeholder="Örn: 05XX XXX XX XX" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+              <input type="tel" id="phone" name="phone" required placeholder="Örn: 05XX XXX XX XX" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
             </div>
-
           </div>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            
             <div>
-              <label for="serviceType" class="block text-xs font-semibold text-stone-700 mb-1">İlgilendiğiniz Hizmet Alanı</label>
-              <select id="serviceType" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
-                <option value="Aile, Çift ve Ortak Yaşam Danışmanlığı">Aile, Çift ve Ortak Yaşam Danışmanlığı</option>
-                <option value="Kardeş İlişkileri & Birlikte Yaşama Rehberliği">Kardeş İlişkileri &amp; Birlikte Yaşama Rehberliği</option>
-                <option value="Ebeveynlik ve Aile İçi İletişim Danışmanlığı">Ebeveynlik &amp; Aile İçi İletişim Danışmanlığı</option>
+              <label for="email" class="block text-xs font-semibold text-stone-700 mb-1">E-Posta Adresiniz</label>
+              <input type="email" id="email" name="email" placeholder="Online görüşme davet bağlantısı için" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+            </div>
+
+            <div>
+              <label for="topic" class="block text-xs font-semibold text-stone-700 mb-1">Görüşme Konusu *</label>
+              <select id="topic" name="topic" required class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
+                <option value="Aile ve Çift Danışmanlığı">Aile ve Çift Danışmanlığı (İletişim &amp; Ortak Yaşam)</option>
+                <option value="Bireysel Danışmanlık">Bireysel Danışmanlık (Sınırlar &amp; Kişisel Süreçler)</option>
+                <option value="Ebeveynlik ve Aile İçi Sınırlar">Ebeveynlik &amp; Aile İçi Sınırlar</option>
                 <option value="Glucoecosystem Tip 1 Diyabet Aile Desteği">Glucoecosystem Tip 1 Diyabet Aile Desteği</option>
-                <option value="Bireysel & Yetişkin Danışmanlığı">Bireysel &amp; Yetişkin Danışmanlığı</option>
-                <option value="Diğer Bireysel / İlişkisel Danışmanlık Konuları">Diğer İlişkisel / Bireysel Konular</option>
+                <option value="Kardeş ve Yetişkin Aile Fertleri İletişimi">Kardeş &amp; Yetişkin Aile Fertleri İletişimi</option>
+                <option value="Diğer / Belirtmek İstediğim Özel Durum">Diğer / Belirtmek İstediğim Özel Durum</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="participants" class="block text-xs font-semibold text-stone-700 mb-1">Ön Görüşmeye Kimler Katılacak?</label>
+              <select id="participants" name="participants" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
+                <option value="Sadece Kendim (Tek Kişi)">Sadece Kendim (Tek Kişi)</option>
+                <option value="Eşimle / Partnerimle Birlikte (Çift)">Eşimle / Partnerimle Birlikte (Çift)</option>
+                <option value="Aile Fertleri Olarak (Çoklu Katılım)">Aile Fertleri Olarak (Çoklu Katılım)</option>
               </select>
             </div>
 
             <div>
-              <label for="sessionFormat" class="block text-xs font-semibold text-stone-700 mb-1">Seans Formatı (Sadece Online)</label>
-              <select id="sessionFormat" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
-                <option value="Online Seans (Zoom / Google Meet)">Online Seans (Zoom / Google Meet - Global)</option>
+              <label for="preferredTime" class="block text-xs font-semibold text-stone-700 mb-1">Tercih Ettiğiniz Zaman Dilimi</label>
+              <select id="preferredTime" name="preferredTime" class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
+                <option value="Fark Etmez / En Erken Uygun Zaman">Fark Etmez / En Erken Uygun Zaman</option>
+                <option value="Hafta İçi Sabah (09:30 - 12:30)">Hafta İçi Sabah (09:30 - 12:30)</option>
+                <option value="Hafta İçi Öğleden Sonra (13:30 - 17:00)">Hafta İçi Öğleden Sonra (13:30 - 17:00)</option>
+                <option value="Hafta İçi Akşam (18:30 - 21:00)">Hafta İçi Akşam (18:30 - 21:00)</option>
+                <option value="Hafta Sonu">Hafta Sonu (Uygun Saatler)</option>
               </select>
             </div>
-
           </div>
 
           <div>
-            <label for="note" class="block text-xs font-semibold text-stone-700 mb-1">Kısaca Paylaşmak İstediğiniz Not (Opsiyonel)</label>
-            <textarea id="note" rows="3" placeholder="Örn: 5 yaşındaki çocuğumuzun öfke nöbetleri hakkında görüşmek istiyoruz..." class="w-full px-4 py-2 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+            <label for="note" class="block text-xs font-semibold text-stone-700 mb-1">Kısaca Durumunuz veya Danışmanlıktan Temel Beklentiniz (Opsiyonel)</label>
+            <textarea id="note" name="note" rows="3" placeholder="Sizi bu görüşmeye yönlendiren temel ihtiyacı kısaca aktarabilirsiniz..." class="w-full px-4 py-2.5 rounded-xl border border-stone-300 text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+          </div>
+
+          <div class="flex items-start gap-2.5 pt-1 text-xs text-stone-600">
+            <input type="checkbox" id="privacyConsent" name="privacyConsent" required checked class="mt-0.5 rounded text-brand-600 focus:ring-brand-500">
+            <label for="privacyConsent" class="leading-relaxed">
+              Paylaştığım iletişim ve ön görüşme bilgilerinin danışmanlık meslek etiği ve gizlilik ilkeleri çerçevesinde korunacağını biliyor ve kabul ediyorum.
+            </label>
           </div>
 
           <div class="pt-2">
-            <button type="submit" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-brand-500/30 transition flex items-center justify-center gap-2 text-sm">
-              <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.838.814 2.796.814 3.183 0 5.769-2.588 5.77-5.768 0-3.18-2.587-5.768-5.77-5.768zm0 10.455c-.868 0-1.722-.234-2.47-.677l-.177-.105-1.837.482.491-1.792-.116-.185c-.486-.774-.742-1.674-.741-2.597.001-2.628 2.14-4.767 4.77-4.767 2.629 0 4.768 2.139 4.769 4.768 0 2.63-2.14 4.769-4.77 4.769z"/></svg>
-              <span>WhatsApp Üzerinden Randevu Talebi İlet</span>
+            <button id="submitBtn" type="submit" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-brand-500/25 transition flex items-center justify-center gap-2 text-sm">
+              <span id="submitBtnText">Ön Görüşme Talebini Gönder</span>
+              <svg id="submitBtnIcon" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </button>
             <p class="text-[11px] text-stone-400 text-center mt-2 flex items-center justify-center gap-1.5">
               <svg class="w-3.5 h-3.5 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
-              <span>Paylaşılan bilgiler gizli tutulur. Danışan mahremiyeti esastır.</span>
+              <span>Seanslar sadece online (Zoom / Google Meet) yürütülmektedir. Danışan mahremiyeti esastır.</span>
             </p>
           </div>
 
         </form>
+
+      </div>
+
+    </div>
+  </section>
 
       </div>
 
