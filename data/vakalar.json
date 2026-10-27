@@ -1,0 +1,28 @@
+[
+  {
+    "id": "VK-202610-001",
+    "title": "Aile Mahkemesi Velayet Sürecinde Ebeveyn Yabancılaştırma (PAS) Dinamikleri",
+    "category": "Mahkeme & Velayet",
+    "courtType": "Aile Mahkemesi / Çekişmeli Boşanma ve Velayet Talebi",
+    "summary": "10 yaşındaki çocuğun anne ile babası arasındaki yoğun çatışma ortamında taraf tutmaya zorlanması, babaya yönelik gerekçelendirilemeyen direnç ve yabancılaşma belirtileri.",
+    "clinicalObservation": "Görüşmelerde çocuğun kullandığı dilin kendi yaş gelişim düzeyine uymadığı, doğrudan anne söylemlerini tekrar ettiği gözlemlenmiştir. Sistemik aile yaklaşımı ile ebeveynler arasındaki sınırların netleştirilmesi ve çocuğun çatışma kalkanı olarak kullanılmasının engellenmesine yönelik rehberlik planı oluşturulmuştur.",
+    "recommendations": "1. Kişisel ilişki günlerinin net ve esnemeyen bir takvime bağlanması.\n2. Ebeveynlerin çocuk üzerinden birbirine mesaj iletmesinin kesin olarak durdurulması.\n3. Çocuğun her iki ebeveyniyle de bağımsız ve suçluluk hissetmeden bağ kurabilmesi için güvenli alan çalışması.",
+    "confidentiality": "Yüksek Gizlilik / Adli Vaka Notu",
+    "status": "Devam Ediyor",
+    "createdAt": "2026-10-20T14:30:00+03:00",
+    "updatedAt": "2026-10-25T11:15:00+03:00"
+  },
+  {
+    "id": "VK-202610-002",
+    "title": "Çekişmeli Boşanma Sonrası Ortak Ebeveynlik ve İletişim Protokolü",
+    "category": "Boşanma & İletişim",
+    "courtType": "Anlaşmalı Boşanma Protokolü Hazırlık Süreci",
+    "summary": "7 ve 4 yaşlarındaki iki çocuğun ortak velayet ve görüş günleri düzenlemesinde ebeveynlerin öfke döngüsünden çıkarılıp çocuk merkezli kararlar alabilmesi.",
+    "clinicalObservation": "Ebeveynlerin eş olma rolü ile ebeveyn olma rolünü birbirinden ayıramadığı tespit edilmiştir. Şiddetsiz iletişim metodolojisi uygulanarak eşlik ilişkisinin bittiği ancak ebeveynlik ortaklığının ömür boyu sürdüğü bilinci üzerinde çalışılmıştır.",
+    "recommendations": "Okul, sağlık ve tatil planlamalarında yazılı iletişim protokolünün benimsenmesi; üçüncü şahısların (büyükanne/büyükbaba) sürece müdahalesinin sınırlandırılması.",
+    "confidentiality": "Danışmanlık İçi Dosya",
+    "status": "Tamamlandı",
+    "createdAt": "2026-10-18T10:00:00+03:00",
+    "updatedAt": "2026-10-26T16:00:00+03:00"
+  }
+]
