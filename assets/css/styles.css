@@ -23,6 +23,11 @@ html {
   background-color: #FFFFFF;
 }
 
+/* Navbar yüksekliği kadar üst boşluk bırakarak başlıkların kesilmesini engeller */
+section[id], div[id] {
+  scroll-margin-top: 5.5rem;
+}
+
 .font-serif {
   font-family: 'Playfair Display', Georgia, serif;
 }
